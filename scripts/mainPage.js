@@ -10,11 +10,6 @@ const submitButtonActivate = document.getElementById("submitButton")
  */
 function refreshTable(newList){
   dynamicPage.innerHTML = ""
-  if (newlist[0] == "N/a"){
-    errorMessage = document.createElement("p");
-    errorMessage.innerHTML= "nothing fit your criteria, sorry"
-    dynamicPage.append(errorMessage)
-  }
   for (var i = 0; i < newList.length; i++){
     borderDiv =  document.createElement("div");
     borderDiv.classList= "border";
@@ -131,31 +126,32 @@ function filterEthnicity(list, chosenEthnicity){
 }
 
 submitButtonActivate.addEventListener("click", () => {
-  while (true){
-    var maxIncome = $( "#maxIncome" ).val();
-  
-    if (maxIncome == ''){
-      maxIncome = 999999999999999;
-    }
 
-    var minIncome = $( "#minIncome" ).val();
-    if (minIncome == ''){
-      minIncome = 0;
-    }
-    var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
+  var maxIncome = $( "#maxIncome" ).val();
 
-    if(modifiedList.length == 0){
-      modifiedList = ["N/a"]
-    }
-    
-    var chosenEthnicity = $( "#ethnicity" ).val();
-    if (chosenEthnicity != 'Not selected'){
-      var modifiedList = filterEthnicity(modifiedList, chosenEthnicity)
-    }
-
-    
-    refreshTable(modifiedList)
+  if (maxIncome == ''){
+    maxIncome = 999999999;
   }
+
+  var minIncome = $( "#minIncome" ).val();
+  if (minIncome == ''){
+    minIncome = 0;
+  }
+
+  var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
+
+  /** 
+  var chosenEthnicity = $( "#ethnicity" ).val();
+  if (chosenEthnicity != 'Not selected'){
+    var modifiedList2 = filterEthnicity(modifiedList, chosenEthnicity)
+  }
+  else{
+    var modifiedList2 = modifiedList
+  }
+  */
+  
+  refreshTable(modifiedList)
+
 
 })
 
