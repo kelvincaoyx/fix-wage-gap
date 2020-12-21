@@ -1,0 +1,104 @@
+html {
+  font-family: Roboto;
+}
+
+.logo {
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 200%;
+  color: orange;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  background-color: white;
+  padding-left: 24px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.nav p {
+  margin-right: 24px;
+}
+
+.nav p a {
+  color: grey;
+  text-decoration: none;
+}
+
+
+
+.discriminationTags li {
+  display: inline;
+  font-size: 25px;
+  padding-right: 24px;
+}
+
+.job{
+  padding-left: 40px;
+  font-size: small
+}
+
+.heading{
+  padding-left: 40px;
+  
+}
+
+.income{
+  padding-left: 40px;
+}
+
+.info{
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.border{
+  border-style:hidden;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #b8b6b6;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.homePageImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.homePageImage img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.homePageImage div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.filters{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
