@@ -26,13 +26,18 @@ function refreshTable(newList){
     age.innerHTML =  newList[i].age + " years old"
     discriminatationTags.append(age);
 
-    ethnicity= document.createElement("button");
-    ethnicity.innerHTML =  newList[i].ethnicity
-    discriminatationTags.append(ethnicity);
+    
+    if(newList[i].ethnicity != "Not Selected"){
+      ethnicity= document.createElement("button");
+      ethnicity.innerHTML =  newList[i].ethnicity
+      discriminatationTags.append(ethnicity);
+    }
 
-    religion= document.createElement("button");
-    religion.innerHTML =  newList[i].religion
-    discriminatationTags.append(religion);
+    if(newList[i].religion != "Not Selected" & newList[i].religion != "Other"){
+      religion= document.createElement("button");
+      religion.innerHTML =  newList[i].religion
+      discriminatationTags.append(religion);
+    }
 
     gender= document.createElement("button");
     gender.innerHTML =  newList[i].gender
@@ -70,6 +75,12 @@ function refreshTable(newList){
     dynamicPage.append(borderDiv);
  
   }
+  if (newList.length == 0){
+    errorMessage = document.createElement("p");
+    errorMessage.innerHTML = "Sorry, no one matches your criteria. :'("
+    dynamicPage.append(errorMessage);
+
+  }
 };
 
 /**
@@ -94,12 +105,12 @@ for (var i = 0; i < 10; i++){
   let yearsOfWork = [1,2,3,1,2,5,4,3,2,5]
   let age = [20,23,23,65,45,75,34,54,45,73];
   let ethnicity = ["Not Selected", "Caucasian", "West Asian", "Latin American", "Southeast Asian", "Arab", "Filipino", "African American", "Korean", "Japanese"];
-  let religion = ["scientology", "Christianity", "Judaism", "Hinduism", "Islam", "greek orthodox", "Confucianism", "Druze", "pagan", "Calvinism" ];
-  let gender = ["male", "female", "transgender", "gender neutral", "non-binary", "agender", "pangender", "genderqueer", "two-spirit", "thrid gender"];
+  let religion = ["Christian", "Muslim", "Hindu", "Sikh", "Buddhist", "Jewish", "No religious affliation", "Other", "Christian", "Not Selected" ];
+  let gender = ["male", "female", "transgender", "gender neutral", "non-binary", "agender", "pangender", "genderqueer", "two-spirit", "third gender"];
   let disability = ["vision impairment", "none", "deaf", "none", "intellectual disability", "none", "none", "none", "none", "none"];
   let sOrientation = ["heterosexual", "homosexual", "bisexual", "asexual", "heterosexual", "heterosexual", "homosexual", "bisexual", "asexual", "heterosexual",];
-  let newProduct = new Identified(job[i], income[i], work[i], experience[i], firstName[i], lastName[i], yearsOfWork[i], age[i], ethnicity[i], religion[i], gender[i], disability[i], sOrientation[i]);
-  listOfPeople.push(newProduct);
+  let newPerson = new Identified(job[i], income[i], work[i], experience[i], firstName[i], lastName[i], yearsOfWork[i], age[i], ethnicity[i], religion[i], gender[i], disability[i], sOrientation[i]);
+  listOfPeople.push(newPerson);
 };
 
 
@@ -120,36 +131,67 @@ function filterEthnicity(list, chosenEthnicity){
     if (person.ethnicity == chosenEthnicity){
       return true
     }
-    
+    return  false
+  })
+}
+
+function filterReligion(list, chosenReligion){
+  return list.filter(function(person) {
+    if (person.religion == chosenReligion){
+      return true
+    }
+    return  false
+  })
+}
+
+function filterGender(list, filterGender){
+  return list.filter(function(person) {
+    if (person.gender == filterGender){
+      return true
+    }
     return  false
   })
 }
 
 submitButtonActivate.addEventListener("click", () => {
 
-  var maxIncome = $( "#maxIncome" ).val();
+  var maxIncome = $("#maxIncome").val();
 
   if (maxIncome == ''){
     maxIncome = 999999999;
   }
 
-  var minIncome = $( "#minIncome" ).val();
+  var minIncome = $("#minIncome").val();
   if (minIncome == ''){
     minIncome = 0;
   }
 
   var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
 
-  /** 
-  var chosenEthnicity = $( "#ethnicity" ).val();
-  if (chosenEthnicity != 'Not selected'){
-    var modifiedList2 = filterEthnicity(modifiedList, chosenEthnicity)
-  }
-  else{
-    var modifiedList2 = modifiedList
-  }
-  */
   
+  var chosenEthnicity = $("#ethnicity").val();
+  if (chosenEthnicity != 'Not Selected'){
+    var modifiedList = filterEthnicity(modifiedList, chosenEthnicity)
+  }
+
+  var chosenReligion = $('#religion').val()
+  if (chosenReligion != 'Not Selected'){
+    var modifiedList = filterReligion(modifiedList, chosenReligion)
+  }
+
+  var chosenGender = $('#gender').val()
+  if (chosenGender != 'Not Selected'){
+    var modifiedList = filterGender(modifiedList, chosenGender)
+  }
+  
+
+
+
+
+
+
+
+
   refreshTable(modifiedList)
 
 
