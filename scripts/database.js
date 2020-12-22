@@ -1,11 +1,19 @@
+//Kelvin's work
 var listOfPeople = [];
 
-
+//Allows script to access the dynamicPage element in the index.html
 const dynamicPage = document.getElementById("dynamicPage");
 
-
+/**
+ * Takes a one-dimensional array and dynamically shows them on the database tab
+ * 
+ * @param {array} newList - An array of objects that will be shown on the database scrren
+ */
 function refreshTable(newList){
+  //Clears the previous data from the div
   dynamicPage.innerHTML = ""
+
+  //Takes in each object and creates a card for each object
   for (var i = 0; i < newList.length; i++){
     borderDiv =  document.createElement("div");
     borderDiv.classList= "border";
@@ -51,7 +59,7 @@ function refreshTable(newList){
 
     jobDiv = document.createElement("p");
     jobDiv.classList = "job";
-    jobDiv.innerHTML = newList[i].job + ", at " + newList[i].work + " for " + newList[i].yearsOfWork + " years."
+    jobDiv.innerHTML = newList[i].job + ", at " + newList[i].company + " for " + newList[i].yearsOfWork + " years."
     borderDiv.append(jobDiv);
 
     incomeDiv = document.createElement("p");
@@ -64,27 +72,40 @@ function refreshTable(newList){
     infoDiv.innerHTML = newList[i].experience 
     borderDiv.append(infoDiv);
 
-
     dynamicPage.append(borderDiv);
  
   }
+
+  //Gives out an error message if there is nothing in the list/ nothing fit the user's search criteria
   if (newList.length == 0){
     errorMessage = document.createElement("p");
     errorMessage.innerHTML = "Sorry, no one matches your criteria. :'("
     dynamicPage.append(errorMessage);
 
   }
+
 };
 
+/**
+ * Takes in a specified range of numbers and then returns a random number between specified range
+ * 
+ * @param {number} lowRange - The lowest number that random number generator can go
+ * @param {number} highRange - The highest number that the random number generator can go
+ * @returns {number} - A number between the specified range that the function was given
+ */
 function randomNumberGenerator(lowRange, highRange){
   highRange -= lowRange;
   return Math.floor(Math.random() * highRange) + lowRange; 
 };
 
+/**
+ * Creates a sample array of people, so that you can see how the cards in the database will be laid out
+ * 
+ */
 for (var i = 0; i < 50; i++){
   let firstName = ['Kelvin', 'Micheal', 'David', 'Bob', 'Joe', 'Peter', 'Harry', 'Jeff', 'Alex', 'Homer'];
   let lastName = ['Smith', 'Geller', 'Jackson', 'Bobby', 'Greene', 'Stark', 'Parker', 'Lang', 'Rogers', 'Natasha'];
-  let work = ["Google", "Microsoft", "Amazon", "McDonalds", "Harveys", "Walmart", "Staples", "Best Buy", "Target", "Starbucks"];
+  let company = ["Google", "Microsoft", "Amazon", "McDonalds", "Harveys", "Walmart", "Staples", "Best Buy", "Target", "Starbucks"];
   let experience = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."];
   let job = ['Regional Manager', 'Website Developer', 'Warehouse manager', 'Janitor', 'Receptionist', 'Manager', 'Employee', 'Product tester', 'Accountant', 'Marketing lead'];
   let income = randomNumberGenerator(10000,500000)
@@ -94,15 +115,20 @@ for (var i = 0; i < 50; i++){
   let religion = ["Not Selected", "Christian", "Muslim", "Hindu", "Sikh", "Buddhist", "Jewish", "No religious affliation", "Other"];
   let gender = ["male", "female", "transgender", "gender neutral", "non-binary", "agender", "pangender", "genderqueer", "two-spirit", "third gender", "Not Selected"];
   let sOrientation = ["Not Selected", "heterosexual", "homosexual", "bisexual", "asexual"];
-  let newPerson = new Identified(job[randomNumberGenerator(0,10)], income, work[randomNumberGenerator(0,10)], experience, firstName[randomNumberGenerator(0,10)], lastName[randomNumberGenerator(0,10)], yearsOfWork, age, ethnicity[randomNumberGenerator(0,13)], religion[randomNumberGenerator(0,9)], gender[randomNumberGenerator(0,11)], sOrientation[randomNumberGenerator(0,5)]);
+  let newPerson = new People(job[randomNumberGenerator(0,10)], income, experience, company[randomNumberGenerator(0,10)], firstName[randomNumberGenerator(0,10)], lastName[randomNumberGenerator(0,10)], yearsOfWork, age, ethnicity[randomNumberGenerator(0,13)], religion[randomNumberGenerator(0,9)], gender[randomNumberGenerator(0,11)], sOrientation[randomNumberGenerator(0,5)]);
   listOfPeople.push(newPerson);
 };
 
-
-refreshTable(listOfPeople)
-
-function filterByIncome(list, max, min){
-  return list.filter(function(person) {
+/**
+ * Takes in a max and min income and filters out the specified range in the list
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {number} max - The lowest income the person can have
+ * @param {number} min - The highest income the person can have
+ * @returns {array} - Returns the filtered array with the specified range of incomes
+ */
+function filterByIncome(array, max, min){
+  return array.filter(function(person) {
     if (person.income <= max & person.income >= min){
       return true
     }
@@ -110,28 +136,47 @@ function filterByIncome(list, max, min){
   })
 }
 
-function filterByAge(list, age){
-  return list.filter(function(person) {
+/**
+ * Takes in age of a person and filters out ages that aren't close to the specified age
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {number} age - The specified age that want to be filtered
+ * @returns {array} - Returns the filtered array with people with ages that are at most two years away from the specified age
+ */
+function filterByAge(array, age){
+  return array.filter(function(person) {
     if (age <= person.age + 2 & age >= person.age - 2){
       return true
     }
-    
     return  false
   })
 }
 
-function filterByExperience(list, experience){
-  return list.filter(function(person) {
+/**
+ * Takes in years of experience of a person and filters out people without similar years of experience
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {number} experience - The specified number of years the person must have to be in the new array
+ * @returns {array} - Returns the filtered array with people that have similar years of experience at the company
+ */
+function filterByExperience(array, experience){
+  return array.filter(function(person) {
     if (experience <= person.yearsOfWork + 2 & experience >= person.yearsOfWork - 2){
       return true
     }
-    
     return  false
   })
 }
 
-function filterEthnicity(list, chosenEthnicity){
-  return list.filter(function(person) {
+/**
+ * Takes in a person's ethnicity and looks for people with the same ethnicity in the array
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {string} chosenEthnicity - The chosen ethnicity that the function will look for in the array
+ * @returns {array} - Returns the filtered array with people that have the same ethnicity
+ */
+function filterEthnicity(array, chosenEthnicity){
+  return array.filter(function(person) {
     if (person.ethnicity == chosenEthnicity){
       return true
     }
@@ -139,8 +184,15 @@ function filterEthnicity(list, chosenEthnicity){
   })
 }
 
-function filterReligion(list, chosenReligion){
-  return list.filter(function(person) {
+/**
+ * Takes in a person's religion and looks for people with the same religion in the array
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {string} chosenReligion - The chosen religion that the function will look for in the array
+ * @returns {array} - Returns the filtered array with people that have the same religion
+ */
+function filterReligion(array, chosenReligion){
+  return array.filter(function(person) {
     if (person.religion == chosenReligion){
       return true
     }
@@ -148,8 +200,15 @@ function filterReligion(list, chosenReligion){
   })
 }
 
-function filterGender(list, chosenGender){
-  return list.filter(function(person) {
+/**
+ * Takes in a person's gender and looks for people with the same gender in the array
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {string} chosenGender - The chosen gender that the function will look for in the array
+ * @returns {array} - Returns the filtered array with people that have the same gender
+ */
+function filterGender(array, chosenGender){
+  return array.filter(function(person) {
     if (person.gender == chosenGender){
       return true
     }
@@ -157,8 +216,15 @@ function filterGender(list, chosenGender){
   })
 }
 
-function filterOrientation(list, chosenOrientation){
-  return list.filter(function(person) {
+/**
+ * Takes in a person's sexual orientation and looks for people with the same orientation in the array
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {string} chosenOrientation - The chosen sexual orientation that the function will look for in the array
+ * @returns {array} - Returns the filtered array with people that have the same orientation
+ */
+function filterOrientation(array, chosenOrientation){
+  return array.filter(function(person) {
     if (person.sOrientation == chosenOrientation){
       return true
     }
@@ -166,30 +232,38 @@ function filterOrientation(list, chosenOrientation){
   })
 }
 
-
-function filterItems(list, query) {
-  return list.filter(function(person) {
+/**
+ * Takes in a query from a search bar and searches through an array for the jobs and companies that match their query
+ * 
+ * @param {array} array - The array that the function will sort through
+ * @param {string} query - The query that the user has written
+ * @returns {array} - Returns the filtered array with objects that contain letters in their query
+ */
+function filterItems(array, query) {
+  return array.filter(function(person) {
     if (person.job.toLowerCase().indexOf(query.toLowerCase()) !== -1)
       return true
-    if (person.work.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+    if (person.company.toLowerCase().indexOf(query.toLowerCase()) !== -1)
       return true
     return false
   })
 }
 
+/**
+ * Retrieves data from the user and filters an array using the user inputs. Then it takes this filtered array and displays it on the screen
+ */
 function applyingFilters() {
 
   var maxIncome = $("#maxIncome").val();
-
-  if (maxIncome == ''){
-    maxIncome = 999999999;
-  }
-
   var minIncome = $("#minIncome").val();
+
+// gives the max/min income some default numbers incase the user doesn't want to filter using this filter. Makes sure everything is shown
+  if (maxIncome == ''){
+    maxIncome = 999999999999;
+  }
   if (minIncome == ''){
     minIncome = 0;
   }
-
   var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
 
   
@@ -228,21 +302,23 @@ function applyingFilters() {
     var modifiedList = filterItems(modifiedList, searchTerm)
   }
 
-
+//Sends the filtered array to the refreshtable function so that everything gets displayed
   refreshTable(modifiedList)
-
 }
 
-
+/**
+ * Applies the user's search term every time they type, so they get live updates and don't need to press a button
+ */
 $( "input" )
   .keyup(applyingFilters)
 
+/**
+ * Applies the users filter everytime they change a filter term. 
+ */
 $( "select" )
   .change(applyingFilters)
 
-fetch('https://api.github.com/orgs/nodejs')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data) // Prints result from `response.json()` in getRequest
-  })
-  .catch(error => console.error(error))
+/**
+ * Shows the database as soon as the user enters the page.
+ */
+refreshTable(listOfPeople)
