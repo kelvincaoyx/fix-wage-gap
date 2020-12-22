@@ -29,11 +29,35 @@
   </header>
 
   <body>
+    <div id="infoForDatabase">
+      <div>
+        Compare your income with others and see if you are being paid less because of discrimination!
+      </div>
+      <img src="https://live.staticflickr.com/2930/14422575706_f2ea612256_b.jpg" >
+      
+    </div>
+
+
     <input type="text" placeholder="Search for a job or company" id="searchBox">
+
+
+    <div id="sortSection">
+      <p>Sort:</p>
+      <select id="sorting">
+        <option>Name (A-Z)</option>
+        <option>Name (Z-A)</option>
+        <option>Age (Ascending)</option>
+        <option>Age (Descending)</option>
+        <option>Income (Ascending)</option>
+        <option>Income (Descending)</option>
+        <option>Years of Experience (Ascending)</option>
+        <option>Years of Experience (Descending)</option>
+      </select>
+    </div>
 
     <div id="databaseSection">
       <div class="filters">
-        <p style="color: blue;">Filter the Database!</p>
+        <p style="color: orange; font-size: larger; font-weight: bold;">Apply Filters to the Database!</p>
 
         <p>Income</p>
         <input type="text" placeholder="Min income" id="minIncome">
