@@ -18,8 +18,8 @@ class Identified extends People {
    * @param {string} aisle - The aisle where the product is stored
    * @param {string} lastUpdated - The last time the information for this product was updated
    */
-    constructor(job, income, work, experience, firstName, lastName, yearsOfWork, age, ethnicity, religion, gender, disability, sOrientation){
-      super(job, income, work, experience, yearsOfWork, age, ethnicity, religion, gender, disability, sOrientation);
+    constructor(job, income, work, experience, firstName, lastName, yearsOfWork, age, ethnicity, religion, gender, sOrientation){
+      super(job, income, work, experience, yearsOfWork, age, ethnicity, religion, gender, sOrientation);
       this.firstName = firstName;
       this.lastName = lastName;
 

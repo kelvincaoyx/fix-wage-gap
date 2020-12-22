@@ -12,7 +12,7 @@ class People{
   * @param {string} productCode - The product code
   * @param {number} stock - The amount of product stock
   */
-    constructor(job, income, work, experience, yearsOfWork, age, ethnicity, religion, gender, disability, sOrientation) {
+    constructor(job, income, work, experience, yearsOfWork, age, ethnicity, religion, gender, sOrientation) {
       this.job = job;
       this.income = income;
       this.work = work;
@@ -22,7 +22,6 @@ class People{
       this.ethnicity = ethnicity;
       this.religion = religion;
       this.gender = gender;
-      this.disability = disability;
       this.sOrientation = sOrientation;
     };
   
