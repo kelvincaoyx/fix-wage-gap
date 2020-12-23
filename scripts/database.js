@@ -302,12 +302,44 @@ function applyingFilters() {
     var modifiedList = filterItems(modifiedList, searchTerm)
   }
 
+  var sortingCriteria = $('#sorting').val()
+
+  if (sortingCriteria == "Name (A-Z)")
+    modifiedList.sort((a, b) => a.firstName.localeCompare(b.firstName))
+
+  if (sortingCriteria == "Name (Z-A)")
+    modifiedList.sort((a, b) => b.firstName.localeCompare(a.firstName))
+
+  if (sortingCriteria == "Age (Ascending)"){
+    modifiedList.sort((a, b) => a.age - b.age)
+  }
+
+  if (sortingCriteria == "Age (Descending)"){
+    modifiedList.sort((a, b) => b.age - a.age)
+  }
+
+  if (sortingCriteria == "Income (Ascending)"){
+    modifiedList.sort((a, b) => a.income - b.income)
+  }
+
+  if (sortingCriteria == "Income (Descending)"){
+    modifiedList.sort((a, b) => b.income - a.income)
+  }
+
+  if (sortingCriteria == "Years of Experience (Ascending)"){
+    modifiedList.sort((a, b) => a.yearsOfWork - b.yearsOfWork)
+  }
+
+  if (sortingCriteria == "Years of Experience (Descending)"){
+    modifiedList.sort((a, b) => b.yearsOfWork - a.yearsOfWork)
+  }
+
 //Sends the filtered array to the refreshtable function so that everything gets displayed
   refreshTable(modifiedList)
 }
 
 /**
- * Applies the user's search term every time they type, so they get live updates and don't need to press a button
+ * Applies the user's search terms every time they type, so they get live updates and don't need to press a button
  */
 $( "input" )
   .keyup(applyingFilters)
@@ -321,4 +353,4 @@ $( "select" )
 /**
  * Shows the database as soon as the user enters the page.
  */
-refreshTable(listOfPeople)
+applyingFilters()
