@@ -304,11 +304,13 @@ function applyingFilters() {
 
   var sortingCriteria = $('#sorting').val()
 
-  if (sortingCriteria == "Name (A-Z)")
-    modifiedList.sort((a, b) => a.firstName.localeCompare(b.firstName))
+  if (sortingCriteria == "Name (A-Z)"){
+    modifiedList.sort((a, b) => (a.firstName + a.lastName).localeCompare(b.firstName + b.lastName))
+  }
 
-  if (sortingCriteria == "Name (Z-A)")
-    modifiedList.sort((a, b) => b.firstName.localeCompare(a.firstName))
+  if (sortingCriteria == "Name (Z-A)"){
+    modifiedList.sort((a, b) => (b.firstName + b.lastName).localeCompare(a.firstName + a.lastName))
+  }
 
   if (sortingCriteria == "Age (Ascending)"){
     modifiedList.sort((a, b) => a.age - b.age)
@@ -354,3 +356,8 @@ $( "select" )
  * Shows the database as soon as the user enters the page.
  */
 applyingFilters()
+
+fetch('test.txt')
+  .then(response => response.text())
+  .then(text => console.log(text))
+  // outputs the content of the text file
