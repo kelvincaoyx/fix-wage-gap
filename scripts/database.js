@@ -1,8 +1,9 @@
 //Kelvin's work
 var listOfPeople = [];
 
-//Allows script to access the dynamicPage element in the index.html
+//Allows script to access the html elements
 const dynamicPage = document.getElementById("dynamicPage");
+const submitButtonActivate = document.getElementById("submitButton");
 
 /**
  * Takes a one-dimensional array and dynamically shows them on the database tab
@@ -355,3 +356,25 @@ $( "input" )
  */
 $( "select" )
   .change(applyingFilters)
+
+submitButtonActivate.addEventListener("click", () => {
+  let job = $('#addedJob').val()
+  let income = $('#addedIncome').val()
+  let experience = $('#addedExperience').val()
+  let company = $('#addedCompany').val()
+  let firstName = $('#addedFirstName').val()
+  let lastName = $('#addedLastName').val()
+  let yearsOfWork = $('#addedYearsOfExperience').val()
+  let age = $('#addedAge').val()
+  let ethnicity = $('#addedEthnicity').val()
+  let religion = $('#addedReligion').val()
+  let gender = $('#addedGender').val()
+  let sOrientation = $('#addedSOrientation').val()
+
+  addedInfo = new People (job, income, experience, company, firstName, lastName, yearsOfWork, age, ethnicity, religion, gender, sOrientation)
+
+  listOfPeople.push(addedInfo)
+
+  window.location.href = "/database.html";
+});
+
