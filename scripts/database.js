@@ -87,22 +87,21 @@ function refreshTable(newList){
 };
 
 /**
- * Takes in a specified range of numbers and then returns a random number between specified range
- * 
- * @param {number} lowRange - The lowest number that random number generator can go
- * @param {number} highRange - The highest number that the random number generator can go
- * @returns {number} - A number between the specified range that the function was given
+ * Takes in data from .json and displays it on the database screen
  */
-function randomNumberGenerator(lowRange, highRange){
-  highRange -= lowRange;
-  return Math.floor(Math.random() * highRange) + lowRange; 
-};
+fetch('sample_people.json')
+    .then(res => res.json())
+    .then((out) => {
+        console.log('Output: ', out);
+        Array.prototype.push.apply(listOfPeople, out)
+        applyingFilters()
+}).catch(err => console.error(err));
 
 /**
  * Creates a sample array of people, so that you can see how the cards in the database will be laid out
  * 
- */
-for (var i = 0; i < 50; i++){
+
+for (var i = 0; i < 5; i++){
   let firstName = ['Kelvin', 'Micheal', 'David', 'Bob', 'Joe', 'Peter', 'Harry', 'Jeff', 'Alex', 'Homer'];
   let lastName = ['Smith', 'Geller', 'Jackson', 'Bobby', 'Greene', 'Stark', 'Parker', 'Lang', 'Rogers', 'Natasha'];
   let company = ["Google", "Microsoft", "Amazon", "McDonalds", "Harveys", "Walmart", "Staples", "Best Buy", "Target", "Starbucks"];
@@ -118,6 +117,7 @@ for (var i = 0; i < 50; i++){
   let newPerson = new People(job[randomNumberGenerator(0,10)], income, experience, company[randomNumberGenerator(0,10)], firstName[randomNumberGenerator(0,10)], lastName[randomNumberGenerator(0,10)], yearsOfWork, age, ethnicity[randomNumberGenerator(0,13)], religion[randomNumberGenerator(0,9)], gender[randomNumberGenerator(0,11)], sOrientation[randomNumberGenerator(0,5)]);
   listOfPeople.push(newPerson);
 };
+ */
 
 /**
  * Takes in a max and min income and filters out the specified range in the list
@@ -245,6 +245,10 @@ function filterItems(array, query) {
       return true
     if (person.company.toLowerCase().indexOf(query.toLowerCase()) !== -1)
       return true
+    if (person.firstName.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+      return true
+    if (person.lastName.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+      return true
     return false
   })
 }
@@ -351,13 +355,3 @@ $( "input" )
  */
 $( "select" )
   .change(applyingFilters)
-
-/**
- * Shows the database as soon as the user enters the page.
- */
-applyingFilters()
-
-fetch('test.txt')
-  .then(response => response.text())
-  .then(text => console.log(text))
-  // outputs the content of the text file
