@@ -1,11 +1,11 @@
 //Kelvin's work
 
 /**
- * This class inherits from the Career class and creates People objects
+ * This class is used to create People objects
  * 
  * @class
  */
-class People extends Career {
+class People {
 
   /**
    * The constructor for People objects
@@ -24,7 +24,9 @@ class People extends Career {
    * @param {string} sOrientation - The sexual orientation of the person
    */
     constructor(job, income, experience, company, firstName, lastName, yearsOfWork, age, ethnicity, religion, gender, sOrientation){
-      super(job, income, experience);
+      this.job = job;
+      this.income = income;
+      this.experience = experience;
       this.company = company;
       this.firstName = firstName;
       this.lastName = lastName;
