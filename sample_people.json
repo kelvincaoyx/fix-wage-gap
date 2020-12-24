@@ -1,14 +1,14 @@
 [
     {
-        "job": "Accountant",
-        "income": 338943,
+        "job": "Administrative Assistant",
+        "income": 43680,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Schedule and confirm appointments; Greet people and direct them to contacts or service areas; Answer telephone and relay telephone calls and messages; Answer electronic enquiries; Order office supplies and maintain inventory; Record and prepare minutes of meetings, seminars and conferences; Open and distribute regular and electronic incoming mail and other material and co-ordinate the flow of information."
         ],
-        "company": "Walmart",
+        "company": "DASTUR FINANCIAL SERVICES INC.",
         "firstName": "Harry",
         "lastName": "Natasha",
-        "yearsOfWork": 21,
+        "yearsOfWork": 2,
         "age": 46,
         "ethnicity": "Not Selected",
         "religion": "Other",
@@ -16,15 +16,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 255863,
+        "job": "Kitchen Cabinet Installer",
+        "income": 36400,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Utilize hand and power tools; Read and interpret blueprints, maps, drawings and specifications; Measure and mark guidelines to be used for installations; Erect and install scaffolding, falsework and other working platforms; Determine layout and installation procedures; Install, repair and service interior or exterior prefabricated products."
         ],
-        "company": "Starbucks",
+        "company": "Kingsview Renovation, Flooring & Staircase Inc.",
         "firstName": "David",
         "lastName": "Smith",
-        "yearsOfWork": 29,
+        "yearsOfWork": 2,
         "age": 75,
         "ethnicity": "Latin American",
         "religion": "Jewish",
@@ -32,15 +32,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Manager",
-        "income": 133446,
+        "job": "Receptionist",
+        "income": 29120,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Send invoices; Record and relay information; Provide directory assistance; Perform clerical duties, such as filing and sorting and distributing mail; Obtain and process information required to provide services; Greet people and direct them to contacts or service areas; Answer telephone and relay telephone calls and messages; Receive and issue payments."
         ],
-        "company": "Microsoft",
+        "company": "Employer detailsNovy Manufacturing Inc.",
         "firstName": "Micheal",
         "lastName": "Parker",
-        "yearsOfWork": 22,
+        "yearsOfWork": 1,
         "age": 57,
         "ethnicity": "Multiple visible minorities",
         "religion": "Sikh",
@@ -48,12 +48,12 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Receptionist",
-        "income": 374743,
+        "job": "Forklift Operator",
+        "income": 38220,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Transport and distribute materials and goods; Store cargo and materials; Pick orders and stock; Operate a variety of equipment to load, unload and move materials and products; Load, unload and move products and materials by hand or with basic material handling equipment; Sort, crate and stack goods."
         ],
-        "company": "Starbucks",
+        "company": "Bedard Resources",
         "firstName": "Jeff",
         "lastName": "Parker",
         "yearsOfWork": 16,
@@ -64,15 +64,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 100372,
+        "job": "Plumber ",
+        "income": 50960,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Determine piping system requirements and pipe sizing; Measure, cut, thread and bend pipes to required shape and size; Install, repair and maintain domestic, commercial or industrial plumbing fixtures and systems; Locate and mark positions for pipe connections, passage holes and fixtures in walls and floors; Cut opening in walls and floors to accommodate pipe and pipe fittings; Join pipes using couplings, clamps, screws, bolts, cement or soldering, brazing and welding equipment; Test pipes for leaks using air and water pressure gauges."
         ],
-        "company": "Google",
+        "company": "Employer detailsSJC Enterprises Inc",
         "firstName": "Peter",
         "lastName": "Smith",
-        "yearsOfWork": 24,
+        "yearsOfWork": 1,
         "age": 41,
         "ethnicity": "Southeast Asian",
         "religion": "Buddhist",
@@ -80,15 +80,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Website Developer",
-        "income": 494018,
+        "job": "Cook",
+        "income": 27300,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Train staff in preparation, cooking and handling of food; Supervise kitchen staff and helpers; Organize and manage buffets and banquets; Manage kitchen operations; Inspect kitchens and food service areas; Clean kitchen and work areas; Maintain inventory and records of food, supplies and equipment; Prepare and cook complete meals or individual dishes and foods; Plan menus, determine size of food portions, estimate food requirements and costs, and monitor and order supplies."
         ],
-        "company": "McDonalds",
+        "company": "Simply Samosa Inc",
         "firstName": "Homer",
         "lastName": "Stark",
-        "yearsOfWork": 28,
+        "yearsOfWork": 1,
         "age": 49,
         "ethnicity": "Latin American",
         "religion": "Sikh",
@@ -96,15 +96,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Marketing lead",
-        "income": 244707,
+        "job": "Tester, Temperature-actuated Controls ",
+        "income": 35360,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Repetitive tasks; Handling heavy loads; Physically demanding; Manual dexterity; Attention to detail; Combination of sitting, standing, walking; Standing for extended periods"
         ],
-        "company": "Walmart",
+        "company": "Bedard Resources",
         "firstName": "Homer",
         "lastName": "Greene",
-        "yearsOfWork": 28,
+        "yearsOfWork": 2,
         "age": 48,
         "ethnicity": "Multiple visible minorities",
         "religion": "No religious affliation",
@@ -112,15 +112,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Receptionist",
-        "income": 158981,
+        "job": "Skid Setter",
+        "income": 37200,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Load, unload and transport construction materials. Repetitive tasks; Handling heavy loads; Physically demanding; Manual dexterity."
         ],
         "company": "Microsoft",
         "firstName": "Micheal",
         "lastName": "Jackson",
-        "yearsOfWork": 25,
+        "yearsOfWork": 3,
         "age": 47,
         "ethnicity": "Southeast Asian",
         "religion": "Other",
@@ -128,12 +128,12 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Regional Manager",
-        "income": 466758,
+        "job": "Home Child Care Provider",
+        "income": 30000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Tend to emotional well-being of children; Supervise and care for children; Sterilize bottles, prepare formulas and change diapers for infants; Prepare and serve nutritious meals; Organize, activities such as games and outings for children; Maintain a safe and healthy environment in the home; Bathe, dress and feed infants and children; Prepare infants and children for rest periods."
         ],
-        "company": "Harveys",
+        "company": "Sijia He",
         "firstName": "Alex",
         "lastName": "Rogers",
         "yearsOfWork": 15,
@@ -144,12 +144,12 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Janitor",
-        "income": 323844,
+        "job": "Office Administrator",
+        "income": 48000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Carry out administrative activities of establishment; Oversee and co-ordinate office administrative procedures; Establish work priorities and ensure procedures are followed and deadlines are met."
         ],
-        "company": "McDonalds",
+        "company": "North track transport",
         "firstName": "Kelvin",
         "lastName": "Parker",
         "yearsOfWork": 4,
@@ -160,15 +160,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Regional Manager",
-        "income": 22106,
+        "job": "Personal Support Worker - Home Support ",
+        "income": 41660,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Helping out arround the house."
         ],
-        "company": "Staples",
+        "company": "Extendicare (Canada) inc",
         "firstName": "Alex",
         "lastName": "Lang",
-        "yearsOfWork": 21,
+        "yearsOfWork": 3,
         "age": 71,
         "ethnicity": "Arab",
         "religion": "Not Selected",
@@ -176,15 +176,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Website Developer",
-        "income": 145363,
+        "job": "Fibre Optics Technician",
+        "income": 52000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Install, maintain and service equipment."
         ],
-        "company": "Staples",
+        "company": "Sky-tec",
         "firstName": "Homer",
         "lastName": "Lang",
-        "yearsOfWork": 26,
+        "yearsOfWork": 5,
         "age": 59,
         "ethnicity": "Visible minority, other",
         "religion": "Not Selected",
@@ -192,15 +192,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Janitor",
-        "income": 305873,
+        "job": "Plumber",
+        "income": 70000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Determine piping system requirements and pipe sizing; Measure, cut, thread and bend pipes to required shape and size; Read blueprints, drawings and specifications to determine layout of plumbing system, water supply network and waste and drainage systems; Install, repair and maintain domestic, commercial or industrial plumbing fixtures and systems; Locate and mark positions for pipe connections, passage holes and fixtures in walls and floors; Cut opening in walls and floors to accommodate pipe and pipe fittings; Join pipes using couplings, clamps, screws, bolts, cement or soldering, brazing and welding equipment; Test pipes for leaks using air and water pressure gauges."
         ],
-        "company": "McDonalds",
+        "company": "Lancian Plumbing",
         "firstName": "Harry",
         "lastName": "Geller",
-        "yearsOfWork": 23,
+        "yearsOfWork": 3,
         "age": 62,
         "ethnicity": "Japanese",
         "religion": "No religious affliation",
@@ -208,12 +208,12 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Accountant",
-        "income": 113876,
+        "job": "Client Service Clerk",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Address customers' complaints or concerns; Access and process information; Sell merchandise; Receive payments; Maintain records and statistics; Issue receipts and other forms; Explain the type and cost of services offered; Arrange for billing for services; Arrange for refunds and credits; Answer inquiries and provide information to customers; Perform general office duties; Receive and log complaints; Order office supplies and maintain inventory."
         ],
-        "company": "Microsoft",
+        "company": "CAN-AM Cryp",
         "firstName": "Peter",
         "lastName": "Stark",
         "yearsOfWork": 8,
@@ -224,15 +224,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Manager",
-        "income": 237645,
+        "job": "Carpenter ",
+        "income": 54000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Fit and install windows, doors, stairs, mouldings and hardware; Prepare layouts in conformance to building codes, using measuring tools; Read and interpret blueprints, drawings and sketches to determine specifications and calculate requirements; Measure, cut, shape, assemble and join materials made of wood, wood substitutes, lightweight steel and other materials; Build foundations, install floor beams, lay subflooring and erect walls and roof systems; Maintain, repair and renovate residences and wooden structures in mills, mines, hospitals, industrial plants and other establishments."
         ],
-        "company": "Staples",
+        "company": "Rai Star Custom Homes ltd",
         "firstName": "Bob",
         "lastName": "Greene",
-        "yearsOfWork": 8,
+        "yearsOfWork": 3,
         "age": 70,
         "ethnicity": "West Asian",
         "religion": "Jewish",
@@ -240,15 +240,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Regional Manager",
-        "income": 261668,
+        "job": "Alarm System Dispatcher",
+        "income": 42000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Receive requests for emergency assistance or service; Dispatch personnel as required by emergency situations; Follow-up on issues with work orders."
         ],
-        "company": "Google",
+        "company": "a.p.i Alarm Inc",
         "firstName": "Micheal",
         "lastName": "Natasha",
-        "yearsOfWork": 19,
+        "yearsOfWork": 1,
         "age": 46,
         "ethnicity": "Southeast Asian",
         "religion": "Not Selected",
@@ -256,12 +256,12 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Regional Manager",
-        "income": 483001,
+        "job": "Construction Labourer",
+        "income": 50000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Mix, pour and spread materials; Level earth to fine grade specifications; Erect and dismantle concrete forms, scaffolding, ramps, catwalks shoring and barricades; Assist in framing houses, erecting walls and building roofs."
         ],
-        "company": "Harveys",
+        "company": "David Nyentap Enterprises Inc",
         "firstName": "Alex",
         "lastName": "Lang",
         "yearsOfWork": 5,
@@ -272,15 +272,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Receptionist",
-        "income": 466203,
+        "job": "Foreman/woman, Farm",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Load, unload and transfer crates, supplies and farm produce, livestock and poultry; Detect disease and health problems in crops, livestock and poultry; Operate and drive automobiles, vans and light trucks to pick up and deliver various items and products."
         ],
-        "company": "Amazon",
+        "company": "Hawk Express",
         "firstName": "Kelvin",
         "lastName": "Rogers",
-        "yearsOfWork": 10,
+        "yearsOfWork": 2,
         "age": 77,
         "ethnicity": "Korean",
         "religion": "Other",
@@ -288,607 +288,32 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Warehouse manager",
-        "income": 61893,
+        "job": "Pallet Maker, wood",
+        "income": 28000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Power tools; Pneumatic devices; Hand tools; Small hand tool; Precision measuring instrument. Repetitive tasks; Handling heavy loads; Physically demanding; Manual dexterity; Standing for extended periods."
         ],
-        "company": "Best Buy",
+        "company": "Palletes C.M.P INC",
         "firstName": "Harry",
         "lastName": "Stark",
-        "yearsOfWork": 20,
+        "yearsOfWork": 2,
         "age": 65,
         "ethnicity": "Multiple visible minorities",
         "religion": "Muslim",
         "gender": "female",
         "sOrientation": "asexual"
     },
+  
     {
-        "job": "Regional Manager",
-        "income": 66333,
+        "job": "Income Tax Return Preparer",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Address customers' complaints or concerns; Prepare income tax; Perform clerical duties, such as maintain filing and record systems; Perform general office duties."
         ],
-        "company": "Harveys",
-        "firstName": "Harry",
-        "lastName": "Greene",
-        "yearsOfWork": 3,
-        "age": 45,
-        "ethnicity": "West Asian",
-        "religion": "Other",
-        "gender": "genderqueer",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Marketing lead",
-        "income": 250170,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Starbucks",
-        "firstName": "Alex",
-        "lastName": "Natasha",
-        "yearsOfWork": 10,
-        "age": 46,
-        "ethnicity": "Latin American",
-        "religion": "Muslim",
-        "gender": "two-spirit",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Manager",
-        "income": 120748,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Amazon",
-        "firstName": "David",
-        "lastName": "Smith",
-        "yearsOfWork": 12,
-        "age": 64,
-        "ethnicity": "Caucasian",
-        "religion": "Muslim",
-        "gender": "genderqueer",
-        "sOrientation": "asexual"
-    },
-    {
-        "job": "Receptionist",
-        "income": 122546,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Microsoft",
-        "firstName": "Joe",
-        "lastName": "Parker",
-        "yearsOfWork": 20,
-        "age": 71,
-        "ethnicity": "Chinese",
-        "religion": "Hindu",
-        "gender": "agender",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Marketing lead",
-        "income": 170982,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Amazon",
-        "firstName": "Micheal",
-        "lastName": "Stark",
-        "yearsOfWork": 17,
-        "age": 84,
-        "ethnicity": "Visible minority, other",
-        "religion": "Buddhist",
-        "gender": "third gender",
-        "sOrientation": "Not Selected"
-    },
-    {
-        "job": "Employee",
-        "income": 124308,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Staples",
-        "firstName": "Alex",
-        "lastName": "Parker",
-        "yearsOfWork": 29,
-        "age": 39,
-        "ethnicity": "Not Selected",
-        "religion": "Other",
-        "gender": "genderqueer",
-        "sOrientation": "Not Selected"
-    },
-    {
-        "job": "Employee",
-        "income": 51008,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Target",
-        "firstName": "Peter",
-        "lastName": "Bobby",
-        "yearsOfWork": 9,
-        "age": 48,
-        "ethnicity": "Multiple visible minorities",
-        "religion": "Hindu",
-        "gender": "Not Selected",
-        "sOrientation": "Not Selected"
-    },
-    {
-        "job": "Receptionist",
-        "income": 185654,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Amazon",
-        "firstName": "Joe",
-        "lastName": "Geller",
-        "yearsOfWork": 5,
-        "age": 86,
-        "ethnicity": "Arab",
-        "religion": "Sikh",
-        "gender": "genderqueer",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Accountant",
-        "income": 170716,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Staples",
-        "firstName": "Jeff",
-        "lastName": "Parker",
-        "yearsOfWork": 7,
-        "age": 95,
-        "ethnicity": "Visible minority, other",
-        "religion": "Hindu",
-        "gender": "pangender",
-        "sOrientation": "asexual"
-    },
-    {
-        "job": "Receptionist",
-        "income": 481223,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Google",
-        "firstName": "Jeff",
-        "lastName": "Geller",
-        "yearsOfWork": 19,
-        "age": 51,
-        "ethnicity": "Not Selected",
-        "religion": "Muslim",
-        "gender": "third gender",
-        "sOrientation": "asexual"
-    },
-    {
-        "job": "Product tester",
-        "income": 154084,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Best Buy",
-        "firstName": "Kelvin",
-        "lastName": "Lang",
-        "yearsOfWork": 11,
-        "age": 69,
-        "ethnicity": "African American",
-        "religion": "Hindu",
-        "gender": "transgender",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Receptionist",
-        "income": 366378,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Target",
-        "firstName": "Homer",
-        "lastName": "Lang",
-        "yearsOfWork": 15,
-        "age": 63,
-        "ethnicity": "Latin American",
-        "religion": "Muslim",
-        "gender": "third gender",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Warehouse manager",
-        "income": 387664,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Best Buy",
-        "firstName": "Peter",
-        "lastName": "Jackson",
-        "yearsOfWork": 19,
-        "age": 43,
-        "ethnicity": "Japanese",
-        "religion": "Buddhist",
-        "gender": "female",
-        "sOrientation": "bisexual"
-    },
-    {
-        "job": "Accountant",
-        "income": 94543,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Target",
-        "firstName": "Alex",
-        "lastName": "Parker",
-        "yearsOfWork": 8,
-        "age": 78,
-        "ethnicity": "Southeast Asian",
-        "religion": "No religious affliation",
-        "gender": "two-spirit",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Marketing lead",
-        "income": 431767,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Staples",
-        "firstName": "Peter",
-        "lastName": "Jackson",
-        "yearsOfWork": 11,
-        "age": 61,
-        "ethnicity": "African American",
-        "religion": "Sikh",
-        "gender": "genderqueer",
-        "sOrientation": "bisexual"
-    },
-    {
-        "job": "Regional Manager",
-        "income": 267141,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Starbucks",
-        "firstName": "Kelvin",
-        "lastName": "Stark",
-        "yearsOfWork": 29,
-        "age": 66,
-        "ethnicity": "Korean",
-        "religion": "Christian",
-        "gender": "genderqueer",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Regional Manager",
-        "income": 280533,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Walmart",
-        "firstName": "Bob",
-        "lastName": "Smith",
-        "yearsOfWork": 16,
-        "age": 68,
-        "ethnicity": "Visible minority, other",
-        "religion": "No religious affliation",
-        "gender": "third gender",
-        "sOrientation": "Not Selected"
-    },
-    {
-        "job": "Warehouse manager",
-        "income": 166695,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Starbucks",
-        "firstName": "Joe",
-        "lastName": "Jackson",
-        "yearsOfWork": 19,
-        "age": 51,
-        "ethnicity": "Arab",
-        "religion": "Not Selected",
-        "gender": "gender neutral",
-        "sOrientation": "asexual"
-    },
-    {
-        "job": "Employee",
-        "income": 150389,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Staples",
-        "firstName": "Alex",
-        "lastName": "Natasha",
-        "yearsOfWork": 20,
-        "age": 45,
-        "ethnicity": "Not Selected",
-        "religion": "Christian",
-        "gender": "transgender",
-        "sOrientation": "bisexual"
-    },
-    {
-        "job": "Website Developer",
-        "income": 412216,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Target",
-        "firstName": "Homer",
-        "lastName": "Geller",
-        "yearsOfWork": 25,
-        "age": 64,
-        "ethnicity": "Not Selected",
-        "religion": "Jewish",
-        "gender": "Not Selected",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Accountant",
-        "income": 228586,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Google",
-        "firstName": "Harry",
-        "lastName": "Stark",
-        "yearsOfWork": 25,
-        "age": 94,
-        "ethnicity": "Latin American",
-        "religion": "Not Selected",
-        "gender": "female",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Regional Manager",
-        "income": 229719,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Walmart",
-        "firstName": "David",
-        "lastName": "Bobby",
-        "yearsOfWork": 13,
-        "age": 50,
-        "ethnicity": "Filipino",
-        "religion": "Jewish",
-        "gender": "third gender",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Website Developer",
-        "income": 28356,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Microsoft",
-        "firstName": "David",
-        "lastName": "Lang",
-        "yearsOfWork": 21,
-        "age": 86,
-        "ethnicity": "Latin American",
-        "religion": "Jewish",
-        "gender": "genderqueer",
-        "sOrientation": "bisexual"
-    },
-    {
-        "job": "Receptionist",
-        "income": 85559,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Best Buy",
-        "firstName": "Joe",
-        "lastName": "Natasha",
-        "yearsOfWork": 16,
-        "age": 87,
-        "ethnicity": "Arab",
-        "religion": "Not Selected",
-        "gender": "two-spirit",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Warehouse manager",
-        "income": 175421,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "McDonalds",
+        "company": "Liberty Tax service",
         "firstName": "Alex",
         "lastName": "Rogers",
-        "yearsOfWork": 6,
-        "age": 74,
-        "ethnicity": "Arab",
-        "religion": "Jewish",
-        "gender": "gender neutral",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Product tester",
-        "income": 51500,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Microsoft",
-        "firstName": "Alex",
-        "lastName": "Rogers",
-        "yearsOfWork": 20,
-        "age": 85,
-        "ethnicity": "Chinese",
-        "religion": "Christian",
-        "gender": "pangender",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Accountant",
-        "income": 33586,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Google",
-        "firstName": "Alex",
-        "lastName": "Smith",
-        "yearsOfWork": 4,
-        "age": 80,
-        "ethnicity": "Japanese",
-        "religion": "Not Selected",
-        "gender": "female",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Marketing lead",
-        "income": 28836,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Microsoft",
-        "firstName": "Jeff",
-        "lastName": "Stark",
-        "yearsOfWork": 12,
-        "age": 70,
-        "ethnicity": "African American",
-        "religion": "Hindu",
-        "gender": "non-binary",
-        "sOrientation": "asexual"
-    },
-    {
-        "job": "Regional Manager",
-        "income": 389537,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Starbucks",
-        "firstName": "Homer",
-        "lastName": "Stark",
-        "yearsOfWork": 29,
-        "age": 70,
-        "ethnicity": "Multiple visible minorities",
-        "religion": "Hindu",
-        "gender": "transgender",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Marketing lead",
-        "income": 24845,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Google",
-        "firstName": "Joe",
-        "lastName": "Jackson",
-        "yearsOfWork": 4,
-        "age": 94,
-        "ethnicity": "Japanese",
-        "religion": "Muslim",
-        "gender": "female",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Regional Manager",
-        "income": 49225,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Harveys",
-        "firstName": "Peter",
-        "lastName": "Stark",
-        "yearsOfWork": 21,
-        "age": 87,
-        "ethnicity": "West Asian",
-        "religion": "No religious affliation",
-        "gender": "pangender",
-        "sOrientation": "bisexual"
-    },
-    {
-        "job": "Website Developer",
-        "income": 120777,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Walmart",
-        "firstName": "David",
-        "lastName": "Rogers",
-        "yearsOfWork": 18,
-        "age": 56,
-        "ethnicity": "Multiple visible minorities",
-        "religion": "Sikh",
-        "gender": "male",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Janitor",
-        "income": 353069,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Target",
-        "firstName": "Joe",
-        "lastName": "Bobby",
-        "yearsOfWork": 28,
-        "age": 82,
-        "ethnicity": "Korean",
-        "religion": "Buddhist",
-        "gender": "pangender",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Regional Manager",
-        "income": 350848,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Google",
-        "firstName": "Micheal",
-        "lastName": "Rogers",
-        "yearsOfWork": 10,
-        "age": 31,
-        "ethnicity": "Southeast Asian",
-        "religion": "Jewish",
-        "gender": "agender",
-        "sOrientation": "asexual"
-    },
-    {
-        "job": "Accountant",
-        "income": 46727,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "McDonalds",
-        "firstName": "Micheal",
-        "lastName": "Stark",
-        "yearsOfWork": 14,
-        "age": 48,
-        "ethnicity": "Japanese",
-        "religion": "Christian",
-        "gender": "two-spirit",
-        "sOrientation": "homosexual"
-    },
-    {
-        "job": "Website Developer",
-        "income": 300848,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "McDonalds",
-        "firstName": "Peter",
-        "lastName": "Greene",
-        "yearsOfWork": 19,
-        "age": 51,
-        "ethnicity": "Japanese",
-        "religion": "Other",
-        "gender": "non-binary",
-        "sOrientation": "heterosexual"
-    },
-    {
-        "job": "Warehouse manager",
-        "income": 23282,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Walmart",
-        "firstName": "Alex",
-        "lastName": "Rogers",
-        "yearsOfWork": 22,
+        "yearsOfWork": 1,
         "age": 79,
         "ethnicity": "West Asian",
         "religion": "Buddhist",
@@ -896,15 +321,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Product tester",
-        "income": 480470,
+        "job": "Early Childhood Educator (E.C.E.) ",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Experience with Special Needs Children. Children with a physical disability; Children with behavioural issues; Children with epilepsy; Children with allergies; Children with attention deficit hyperactivity disorder (ADHD) or attention deficit disorder (ADD); Children with Down syndrome."
         ],
-        "company": "Target",
+        "company": "Tiny-shiny Childcare",
         "firstName": "Micheal",
         "lastName": "Rogers",
-        "yearsOfWork": 13,
+        "yearsOfWork": 2,
         "age": 64,
         "ethnicity": "Arab",
         "religion": "No religious affliation",
@@ -912,15 +337,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Regional Manager",
-        "income": 67202,
+        "job": "Software Development Manager",
+        "income": 200000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Establish and implement policies and procedures for information systems; Authorize the development of specifications for products or services; Assign, co-ordinate and review projects and programs; Plan, organize, direct, control and evaluate daily operations; Meet with clients to discuss system requirements, specifications, costs and timelines."
         ],
         "company": "Amazon",
         "firstName": "Joe",
         "lastName": "Bobby",
-        "yearsOfWork": 11,
+        "yearsOfWork": 5,
         "age": 30,
         "ethnicity": "Filipino",
         "religion": "Sikh",
@@ -928,15 +353,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Accountant",
-        "income": 85056,
+        "job": "Accounting Bookkeeper",
+        "income": 34000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "MS Excel; MS Word; Accounting software; Quick Books; Simply Accounting; MS Outlook; TaxPrep."
         ],
-        "company": "Harveys",
+        "company": "AAY JAY ASSOCIATES",
         "firstName": "David",
         "lastName": "Jackson",
-        "yearsOfWork": 9,
+        "yearsOfWork": 3,
         "age": 49,
         "ethnicity": "West Asian",
         "religion": "Not Selected",
@@ -944,12 +369,12 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Manager",
-        "income": 409190,
+        "job": "Medical Orderly",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Transport patients in wheelchair or stretcher; Take patients' blood pressure, temperature and pulse; Supervise patients' exercise routines; Prepare patients for surgery by washing, shaving and sterilizing operative areas; Bathe, dress and groom patients; Weigh, lift, turn and position patients; Accompany patients on outside recreational activities and perform other duties related to patient care and comfort."
         ],
-        "company": "Walmart",
+        "company": "Paramount Care Nursing Agency",
         "firstName": "Peter",
         "lastName": "Lang",
         "yearsOfWork": 3,
@@ -960,15 +385,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Receptionist",
-        "income": 211118,
+        "job": "Kitchen Supervisor",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Supervise and co-ordinate activities of staff who prepare and portion food; Supervise and check assembly of trays; Supervise and check delivery of food trolleys; Prepare food order summaries for chef; Prepare and submit reports; Maintain records of stock, repairs, sales and wastage; Establish work schedules; Estimate and order ingredients and supplies; Ensure food service and quality control; Must have knowledge of the establishment's culinary genres."
         ],
-        "company": "Google",
+        "company": "East Side Marios",
         "firstName": "Homer",
         "lastName": "Geller",
-        "yearsOfWork": 15,
+        "yearsOfWork": 2,
         "age": 61,
         "ethnicity": "Korean",
         "religion": "Buddhist",
@@ -976,15 +401,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Janitor",
-        "income": 300265,
+        "job": "Line Cook",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Train staff in preparation, cooking and handling of food; Supervise kitchen staff and helpers; Order supplies and equipment; Manage kitchen operations; Inspect kitchens and food service areas; Clean kitchen and work areas; Maintain inventory and records of food, supplies and equipment; Prepare and cook complete meals or individual dishes and foods."
         ],
-        "company": "Amazon",
+        "company": "East Side Mario",
         "firstName": "Kelvin",
         "lastName": "Smith",
-        "yearsOfWork": 11,
+        "yearsOfWork": 2,
         "age": 75,
         "ethnicity": "Visible minority, other",
         "religion": "Muslim",
@@ -992,15 +417,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 402147,
+        "job": "Software Engineer",
+        "income": 100000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Research, evaluate and synthesize technical information to design, develop and test computer-based systems; Develop data, process and network models to optimize architecture and to evaluate the performance and reliability of designs; Plan, design and co-ordinate the development, installation, integration and operation of computer-based systems; Assess, troubleshoot, document, upgrade and develop maintenance procedures for operating systems, communications environments and applications software."
         ],
-        "company": "Amazon",
+        "company": "Amazon Web Services Canada, inc",
         "firstName": "Micheal",
         "lastName": "Parker",
-        "yearsOfWork": 24,
+        "yearsOfWork": 2,
         "age": 83,
         "ethnicity": "Filipino",
         "religion": "Buddhist",
@@ -1008,15 +433,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Warehouse manager",
-        "income": 49640,
+        "job": "Drywall installer and finisher",
+        "income": 45000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Prepares tenders and quotations along with painting."
         ],
-        "company": "Walmart",
+        "company": "Complete Paint works",
         "firstName": "Micheal",
         "lastName": "Greene",
-        "yearsOfWork": 11,
+        "yearsOfWork": 1,
         "age": 48,
         "ethnicity": "Latin American",
         "religion": "Jewish",
@@ -1024,15 +449,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Receptionist",
-        "income": 257541,
+        "job": "Software design engineer",
+        "income": 150000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Research, evaluate and synthesize technical information to design, develop and test computer-based systems; Develop data, process and network models to optimize architecture and to evaluate the performance and reliability of designs; Plan, design and co-ordinate the development, installation, integration and operation of computer-based systems; Assess, troubleshoot, document, upgrade and develop maintenance procedures for operating systems, communications environments and applications software."
         ],
-        "company": "Target",
+        "company": "Amazon web services canada inc",
         "firstName": "Homer",
         "lastName": "Parker",
-        "yearsOfWork": 26,
+        "yearsOfWork": 7,
         "age": 88,
         "ethnicity": "Latin American",
         "religion": "No religious affliation",
@@ -1040,15 +465,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Warehouse manager",
-        "income": 202611,
+        "job": "Baker",
+        "income": 30000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Ensure that the quality of products meets established standards."
         ],
-        "company": "Google",
+        "company": "Luna Handpies",
         "firstName": "Alex",
         "lastName": "Bobby",
-        "yearsOfWork": 6,
+        "yearsOfWork": 1,
         "age": 82,
         "ethnicity": "Multiple visible minorities",
         "religion": "Muslim",
@@ -1056,15 +481,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Marketing lead",
-        "income": 249617,
+        "job": "Family Physician",
+        "income": 250000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Advise patients on health care; Prescribe and administer medications and treatments; Examine patients and take their histories, order laboratory tests, X-rays and other diagnostic procedures; Consult with other medical practitioners to evaluate patients' physical and mental health; Inoculate and vaccinate patients to prevent and treat diseases; Communicate health promotion, disease, illnes and accident prevention to patients; Provide counselling and support to patients and their families on a wide range of health and lifestyle issues."
         ],
-        "company": "Google",
+        "company": "Straburg Crossing Family Practice",
         "firstName": "Jeff",
         "lastName": "Greene",
-        "yearsOfWork": 18,
+        "yearsOfWork": 5,
         "age": 34,
         "ethnicity": "West Asian",
         "religion": "Sikh",
@@ -1072,15 +497,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Product tester",
-        "income": 259105,
+        "job": "Supervisor, Transportation Route Schedulers",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Train workers in duties and policies; Resolve work related problems; Requisition or order materials, equipment and supplies; Recruit and hire staff; Prepare and submit reports; Establish work schedules and procedures; Ensure smooth operation of computer equipment and machinery; Conduct performance reviews; Co-ordinate activities with other work units or departments; Arrange for maintenance and repair work; Arrange training for staff; Co-ordinate, assign and review work; Plan, organize and oversee operational logistics of the organization."
         ],
-        "company": "Microsoft",
+        "company": "2541355 Ontario Inc",
         "firstName": "Harry",
         "lastName": "Lang",
-        "yearsOfWork": 27,
+        "yearsOfWork": 1,
         "age": 90,
         "ethnicity": "Southeast Asian",
         "religion": "Buddhist",
@@ -1088,15 +513,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 451100,
+        "job": "Cashier, Supermarket",
+        "income": 30000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Operate cash register; Process money, cheques and credit/debit card payments; Scan items; Tabulate total payment for goods or services required; Receive payment for goods or services; Greet customers; Wrap or place merchandise in bags; Weigh produce and bulk foods; Provide customer service."
         ],
-        "company": "Starbucks",
+        "company": "Farm boy",
         "firstName": "Jeff",
         "lastName": "Bobby",
-        "yearsOfWork": 10,
+        "yearsOfWork": 1,
         "age": 39,
         "ethnicity": "Southeast Asian",
         "religion": "No religious affliation",
@@ -1104,15 +529,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Employee",
-        "income": 233910,
+        "job": "Computer Programmer",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Write, modify, integrate and test software code; Identify and communicate technical problems, processes and solutions; Prepare reports, manuals and other documentation on the status, operation and maintenance of software; Assist in the collection and documentation of user's requirements; Assist in the development of logical and physical specifications; Research and evaluate a variety of software products; Program special effects software for film and video applications; Maintain existing computer programs by making modifications as required; Write, modify, integrate and test software code for e-commerce and other Internet applications; Program animation software to predefined specifications for interactive CDs, DVDs, video game cartridges and Internet-based applications."
         ],
-        "company": "Amazon",
+        "company": "Plexxis Software inc",
         "firstName": "Harry",
         "lastName": "Geller",
-        "yearsOfWork": 10,
+        "yearsOfWork": 1,
         "age": 49,
         "ethnicity": "Visible minority, other",
         "religion": "No religious affliation",
@@ -1136,15 +561,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Receptionist",
-        "income": 182031,
+        "job": "Loggine truck driver",
+        "income": 70000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Perform preventive maintenance; Perform pre-trip, en route and post-trip inspection and oversee all aspects of vehicle."
         ],
-        "company": "Best Buy",
+        "company": "SK trucking inc",
         "firstName": "Jeff",
         "lastName": "Lang",
-        "yearsOfWork": 8,
+        "yearsOfWork": 1,
         "age": 30,
         "ethnicity": "Not Selected",
         "religion": "No religious affliation",
@@ -1152,15 +577,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Product tester",
-        "income": 470973,
+        "job": "General Manager, Sales - Trade, Broadcasting And Other Services",
+        "income": 120000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Authorize and organize the establishment of major departments and associated senior staff positions; Allocate material, human and financial resources to implement organizational policies and programs; Establish objectives for the organization and formulate or approve policies and programs; Establish financial and administrative controls; formulate and approve promotional campaigns; and approve overall human resources planning; Select middle managers, directors or other executive staff; delegate the necessary authority to them and create optimum working conditions; Co-ordinate the work of regions, divisions or departments; Represent the organization, or delegate representatives to act on behalf of the organization, in negotiations or other official functions."
         ],
-        "company": "Walmart",
+        "company": "Dastur Financial services inc",
         "firstName": "Harry",
         "lastName": "Geller",
-        "yearsOfWork": 29,
+        "yearsOfWork": 5,
         "age": 95,
         "ethnicity": "Japanese",
         "religion": "Sikh",
@@ -1168,12 +593,12 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Regional Manager",
-        "income": 388851,
+        "job": "Research Analyst, Securities",
+        "income": 77000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Master's degree, Biology/Biological Sciences, General, Biochemistry/Biophysics and Molecular Biology, Other Biological and Biomedical Sciences, Other"
         ],
-        "company": "Walmart",
+        "company": "Rosalind Advisors inc",
         "firstName": "David",
         "lastName": "Rogers",
         "yearsOfWork": 3,
@@ -1184,15 +609,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Product tester",
-        "income": 264519,
+        "job": "Shipper-receiver",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Unpack goods received; Schedule distribution of goods; Schedule transportation conveyances; Route goods to appropriate storage areas; Record shortages and reject damaged goods; Prepare bills of lading, invoices and other shipping documents; Pack goods to be shipped; Oversee loading and unloading of goods; Maintain internal record-keeping system; Inspect and verify incoming goods against invoices or other documents; Determine method of shipment; Contact clients and suppliers to resolve problems; Assemble containers and crates; Affix identifying information and shipping instructions on shipments; Provide customer service."
         ],
-        "company": "Amazon",
+        "company": "Pioneer lighting",
         "firstName": "Harry",
         "lastName": "Natasha",
-        "yearsOfWork": 9,
+        "yearsOfWork": 3,
         "age": 64,
         "ethnicity": "Latin American",
         "religion": "Hindu",
@@ -1200,12 +625,12 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Receptionist",
-        "income": 276763,
+        "job": "Window And Door Installer, Aluminum",
+        "income": 52000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Utilize hand and power tools; Read and interpret blueprints, maps, drawings and specifications; Measure and mark guidelines to be used for installations; Erect and install scaffolding, falsework and other working platforms; Determine layout and installation procedures; Load and unload trucks with supplies and equipment; Install, repair and service interior or exterior prefabricated products."
         ],
-        "company": "Microsoft",
+        "company": "GTA locksmith and doors ltd",
         "firstName": "David",
         "lastName": "Geller",
         "yearsOfWork": 2,
@@ -1216,15 +641,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Product tester",
-        "income": 411829,
+        "job": "Legal Administrative Assistant",
+        "income": 50000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Determine and establish office procedures and routines; Prepare and key in correspondence and legal documents; Review and proofread documents and correspondence to ensure compliance with legal procedures and grammatical usage; Open and distribute regular and electronic incoming mail and other material and co-ordinate the flow of information."
         ],
-        "company": "Walmart",
+        "company": "Coast immigration ltd",
         "firstName": "Micheal",
         "lastName": "Rogers",
-        "yearsOfWork": 4,
+        "yearsOfWork": 2,
         "age": 43,
         "ethnicity": "African American",
         "religion": "Christian",
@@ -1232,15 +657,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Regional Manager",
-        "income": 162704,
+        "job": "Vice-president - Financial, Communications And Other Business Services",
+        "income": 120000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Allocate material, human and financial resources to implement organizational policies and programs; Establish objectives for the organization and formulate or approve policies and programs; Establish financial and administrative controls; formulate and approve promotional campaigns; and approve overall human resources planning; Select middle managers, directors or other executive staff; delegate the necessary authority to them and create optimum working conditions; Represent the organization, or delegate representatives to act on behalf of the organization, in negotiations or other official functions."
         ],
-        "company": "Harveys",
+        "company": "SKS capital investments",
         "firstName": "Kelvin",
         "lastName": "Smith",
-        "yearsOfWork": 12,
+        "yearsOfWork": 6,
         "age": 41,
         "ethnicity": "Southeast Asian",
         "religion": "No religious affliation",
@@ -1248,15 +673,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Warehouse manager",
-        "income": 442009,
+        "job": "Nanny",
+        "income": 30000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Tend to emotional well-being of children; Take children to and from school and to appointments; Supervise and care for children; Prepare and serve nutritious meals; Organize, activities such as games and outings for children; Maintain a safe and healthy environment in the home; Discipline children according to the methods requested by the parents."
         ],
-        "company": "Starbucks",
+        "company": "Malgorzata Spigelman",
         "firstName": "Kelvin",
         "lastName": "Parker",
-        "yearsOfWork": 28,
+        "yearsOfWork": 2,
         "age": 60,
         "ethnicity": "Korean",
         "religion": "Muslim",
@@ -1264,15 +689,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Manager",
-        "income": 133267,
+        "job": "Bookkeeper",
+        "income": 48000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Reconcile accounts; Prepare trial balance of books; Post journal entries; Calculate fixed assets and depreciation; Maintain general ledgers and financial statements; Calculate and prepare cheques for payroll; Prepare other statistical, financial and accounting reports; Prepare tax returns; Keep financial records and establish, maintain and balance various accounts using manual and computerized bookkeeping systems."
         ],
-        "company": "Google",
+        "company": "SSP truck linke inc",
         "firstName": "Harry",
         "lastName": "Lang",
-        "yearsOfWork": 9,
+        "yearsOfWork": 1,
         "age": 66,
         "ethnicity": "Visible minority, other",
         "religion": "Jewish",
@@ -1280,15 +705,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Receptionist",
-        "income": 292267,
+        "job": "Baker",
+        "income": 30000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Bake mixed dough and batters; Prepare dough for pies, bread, rolls and sweet goods, batters for muffins, cookies and cakes and icings and frostings according to recipes or special customer orders; Operate machinery."
         ],
-        "company": "Walmart",
+        "company": "Farm boy",
         "firstName": "Harry",
         "lastName": "Parker",
-        "yearsOfWork": 29,
+        "yearsOfWork": 2,
         "age": 89,
         "ethnicity": "Korean",
         "religion": "Buddhist",
@@ -1296,15 +721,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Warehouse manager",
-        "income": 279463,
+        "job": "Construction manager",
+        "income": 115000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Select trade subcontractors and co-ordinate their activities; Prepare contracts and negotiate revisions, changes and additions to contractual agreements; Prepare and submit construction project budget estimates; Plan and manage budgets; Plan and prepare construction schedules and milestones and monitor progress; Prepare reports."
         ],
-        "company": "McDonalds",
+        "company": "Ledcor Construction LTD",
         "firstName": "Joe",
         "lastName": "Jackson",
-        "yearsOfWork": 5,
+        "yearsOfWork": 8,
         "age": 56,
         "ethnicity": "West Asian",
         "religion": "Hindu",
@@ -1312,15 +737,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Receptionist",
-        "income": 293693,
+        "job": "Technical Assistant - Office Support ",
+        "income": 50000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Carry out administrative activities of establishment; Administer policies and procedures related to the release of records in processing requests under government access to information and privacy legislation; Oversee and co-ordinate office administrative procedures; Review, evaluate and implement new administrative procedures; Establish work priorities and ensure procedures are followed and deadlines are met; Assemble data and prepare periodic and special reports, manuals and correspondence."
         ],
-        "company": "Best Buy",
+        "company": "Abbasi Consultants corporation",
         "firstName": "Jeff",
         "lastName": "Smith",
-        "yearsOfWork": 4,
+        "yearsOfWork": 1,
         "age": 81,
         "ethnicity": "West Asian",
         "religion": "Buddhist",
@@ -1328,15 +753,15 @@
         "sOrientation": "asexual"
     },
     {
-        "job": "Website Developer",
-        "income": 29262,
+        "job": "Clerk, Meat Counter ",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Giving customers what they request"
         ],
-        "company": "Google",
+        "company": "Smiths market",
         "firstName": "Alex",
         "lastName": "Smith",
-        "yearsOfWork": 27,
+        "yearsOfWork": 2,
         "age": 88,
         "ethnicity": "Korean",
         "religion": "Muslim",
@@ -1344,15 +769,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Regional Manager",
-        "income": 267867,
+        "job": "Administration Officer",
+        "income": 50000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Carry out administrative activities of establishment; Administer policies and procedures related to the release of records in processing requests under government access to information and privacy legislation; Review, evaluate and implement new administrative procedures; Establish work priorities and ensure procedures are followed and deadlines are met; Co-ordinate and plan for office services such as accommodation, relocation, equipment, supplies, forms, disposal of assets, parking, maintenance and security services; Assist in the preparation of operating budget and maintain inventory and budgetary controls."
         ],
-        "company": "Microsoft",
+        "company": "Sandhu immigration consulting services ltd",
         "firstName": "Alex",
         "lastName": "Lang",
-        "yearsOfWork": 25,
+        "yearsOfWork": 2,
         "age": 43,
         "ethnicity": "Multiple visible minorities",
         "religion": "Muslim",
@@ -1360,15 +785,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 172480,
+        "job": "Office Services Co-ordinator",
+        "income": 50000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Oversee and co-ordinate office administrative procedures; Establish work priorities and ensure procedures are followed and deadlines are met; Co-ordinate and plan for office services such as accommodation, relocation, equipment, supplies, forms, disposal of assets, parking, maintenance and security services; Assist in the preparation of operating budget and maintain inventory and budgetary controls; Assemble data and prepare periodic and special reports, manuals and correspondence."
         ],
-        "company": "Starbucks",
+        "company": "Dr. N. Fortootan. Dentistry Professional Corporation",
         "firstName": "Bob",
         "lastName": "Rogers",
-        "yearsOfWork": 20,
+        "yearsOfWork": 2,
         "age": 35,
         "ethnicity": "Southeast Asian",
         "religion": "No religious affliation",
@@ -1376,15 +801,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Warehouse manager",
-        "income": 336132,
+        "job": "Registered Practical Nurse (R.P.N.)",
+        "income": 44000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "CPR Certificate; Eligible for licensure as a practical nurse by the province/territory of work."
         ],
-        "company": "McDonalds",
+        "company": "Employer detailsThorncliffe Place Retirement Residence",
         "firstName": "David",
         "lastName": "Natasha",
-        "yearsOfWork": 23,
+        "yearsOfWork": 3,
         "age": 75,
         "ethnicity": "West Asian",
         "religion": "Buddhist",
@@ -1392,15 +817,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Janitor",
-        "income": 414169,
+        "job": "General Manager, Sales - Trade, Broadcasting And Other Services",
+        "income": 87000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Authorize and organize the establishment of major departments and associated senior staff positions; Allocate material, human and financial resources to implement organizational policies and programs; Establish objectives for the organization and formulate or approve policies and programs; Establish financial and administrative controls; formulate and approve promotional campaigns; and approve overall human resources planning; Co-ordinate the work of regions, divisions or departments; Represent the organization, or delegate representatives to act on behalf of the organization, in negotiations or other official functions."
         ],
-        "company": "Staples",
+        "company": "roopshringar",
         "firstName": "Peter",
         "lastName": "Lang",
-        "yearsOfWork": 15,
+        "yearsOfWork": 8,
         "age": 80,
         "ethnicity": "Korean",
         "religion": "Sikh",
@@ -1408,15 +833,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 452424,
+        "job": "Janitor",
+        "income": 23000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Wash windows, interior walls and ceilings; Work with minimal supervision; Clean and disinfect bathrooms and fixtures; Sweep, mop, scrub and wax hallways, floors and stairs; Empty trash cans and other waste containers."
         ],
-        "company": "Microsoft",
+        "company": "Farm boy",
         "firstName": "Joe",
         "lastName": "Parker",
-        "yearsOfWork": 17,
+        "yearsOfWork": 1,
         "age": 50,
         "ethnicity": "Latin American",
         "religion": "Hindu",
@@ -1424,15 +849,15 @@
         "sOrientation": "Not Selected"
     },
     {
-        "job": "Warehouse manager",
-        "income": 162328,
+        "job": "Framer-carpenter",
+        "income": 48000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Super vise 5-10 people. Have own transportation to go to work. Be able to use tools,."
         ],
-        "company": "Staples",
+        "company": "HouseMasters Construction",
         "firstName": "Homer",
         "lastName": "Bobby",
-        "yearsOfWork": 14,
+        "yearsOfWork": 2,
         "age": 52,
         "ethnicity": "Caucasian",
         "religion": "Not Selected",
@@ -1440,15 +865,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Janitor",
-        "income": 296674,
+        "job": "Long haul truck driver",
+        "income": 50000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Transport and handle dangerous goods; Perform preventive maintenance; Perform emergency roadside repairs; Pay and receive payments for goods; Perform brake adjustments; Drive lighter, special purpose trucks; Receive and relay information to central dispatch; Operate and drive straight or articulated trucks to transport goods and materials; Tarping and ensuring safety and security of cargo; Drive as part of a two-person team or convoy; Oversee condition of vehicle and inspect tires, lights, brakes, cold storage and other equipment; Arrange travel, related itineraries and make reservations; Obtain special permits and other documents required to transport cargo on international routes; Record cargo information, hours of service, distance travelled and fuel consumption; Perform pre-trip, en route and post-trip inspection and oversee all aspects of vehicle."
         ],
-        "company": "Google",
+        "company": "american frieghtliner",
         "firstName": "Homer",
         "lastName": "Greene",
-        "yearsOfWork": 16,
+        "yearsOfWork": 2,
         "age": 38,
         "ethnicity": "Not Selected",
         "religion": "Not Selected",
@@ -1456,15 +881,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Employee",
-        "income": 426111,
+        "job": "Sales Supervisor - Retail",
+        "income": 40000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Sell merchandise; Prepare reports on sales volumes, merchandising and personnel matters; Authorize payments by cheque; Authorize return of merchandise; Assign sales workers to duties; Resolve problems that arise, such as customer complaints and supply shortages; Supervise and co-ordinate activities of workers; Organize and maintain inventory."
         ],
-        "company": "McDonalds",
+        "company": "G&G's travel plaza (petro canada)",
         "firstName": "Harry",
         "lastName": "Lang",
-        "yearsOfWork": 20,
+        "yearsOfWork": 2,
         "age": 71,
         "ethnicity": "Japanese",
         "religion": "Muslim",
@@ -1472,15 +897,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Product tester",
-        "income": 354515,
+        "job": "Stockroom Clerk - Retail",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Stock shelves and display areas; Price items using stamp or stickers according to price list; Operate cash register; Obtain articles for customers from shelf or stockroom; Keep stock clean and in order; Direct customers to location of articles sought; Bag, box or parcel purchases for customers, for shipment or delivery; Order stock; Order picking; Perform general cleaning duties (i.e. sweeping, mopping floors); Provide customer service; Record incoming stock; Unpack products received by store and count, weigh or sort items; Carry customer's purchases to parking lot and pack orders in customers' vehicles."
         ],
-        "company": "Google",
+        "company": "Nature's best",
         "firstName": "Bob",
         "lastName": "Natasha",
-        "yearsOfWork": 11,
+        "yearsOfWork": 2,
         "age": 71,
         "ethnicity": "Visible minority, other",
         "religion": "Not Selected",
@@ -1488,15 +913,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Employee",
-        "income": 415060,
+        "job": "Logistics Supervisor",
+        "income": 44000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Train workers in duties and policies; Resolve work related problems; Requisition or order materials, equipment and supplies; Recruit and hire staff; Prepare and submit reports; Establish work schedules and procedures; Ensure smooth operation of computer equipment and machinery; Conduct performance reviews; Co-ordinate activities with other work units or departments; Arrange for maintenance and repair work; Arrange training for staff; Co-ordinate, assign and review work; Plan, organize and oversee operational logistics of the organization."
         ],
-        "company": "Staples",
+        "company": "A.M County transport Ltd",
         "firstName": "Joe",
         "lastName": "Jackson",
-        "yearsOfWork": 8,
+        "yearsOfWork": 3,
         "age": 55,
         "ethnicity": "Korean",
         "religion": "Jewish",
@@ -1504,15 +929,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Warehouse manager",
-        "income": 248050,
+        "job": "Fish Monger",
+        "income": 32000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Remove bones from meat; Prepare special orders; Grind meats; Cut, trim and prepare standard cuts of meat; Cut carcasses, sides and quarters; Clean and prepare fish and shellfish."
         ],
-        "company": "Harveys",
+        "company": "Galleria Supermarket",
         "firstName": "Peter",
         "lastName": "Greene",
-        "yearsOfWork": 16,
+        "yearsOfWork": 3,
         "age": 55,
         "ethnicity": "West Asian",
         "religion": "Hindu",
@@ -1520,15 +945,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Manager",
-        "income": 320076,
+        "job": "Graphic Designer",
+        "income": 60000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Estimate costs of materials and time to complete graphic designs and illustrations; Work in a multidisciplinary environment; Adapt existing illustrations."
         ],
-        "company": "Staples",
+        "company": "Fast approach inc",
         "firstName": "Alex",
         "lastName": "Smith",
-        "yearsOfWork": 23,
+        "yearsOfWork": 3,
         "age": 78,
         "ethnicity": "Filipino",
         "religion": "Buddhist",
@@ -1536,15 +961,15 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Website Developer",
-        "income": 483104,
+        "job": "Heavy Equipment Operators Supervisor",
+        "income": 72000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Train or arrange for training; Supervise workers and projects; Recommend personnel actions; Establish methods to meet work schedules; Ensure health and safety regulations are followed; Co-ordinate and schedule activities; Requisition materials and supplies; Resolve work problems and recommend measures to improve productivity."
         ],
-        "company": "Best Buy",
+        "company": "MICHELIS SPRAY FOAM INSULATION INC",
         "firstName": "Homer",
         "lastName": "Greene",
-        "yearsOfWork": 10,
+        "yearsOfWork": 6,
         "age": 79,
         "ethnicity": "Japanese",
         "religion": "No religious affliation",
@@ -1552,15 +977,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Accountant",
-        "income": 440389,
+        "job": "Procurement Officer",
+        "income": 60000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Review quotations; Purchase general and specialized equipment, materials or business services; Invite tenders; Establish delivery schedules; Develop specifications for equipment, materials and supplies to be purchased; Determine contract terms and conditions; Contact clients and suppliers to resolve problems; Consult with suppliers; Award contracts or recommend contract awards; Assess requirements of establishment."
         ],
-        "company": "Harveys",
+        "company": "Strongco Recruitment",
         "firstName": "David",
         "lastName": "Rogers",
-        "yearsOfWork": 2,
+        "yearsOfWork": 4,
         "age": 39,
         "ethnicity": "African American",
         "religion": "Christian",
@@ -1568,15 +993,15 @@
         "sOrientation": "homosexual"
     },
     {
-        "job": "Marketing lead",
-        "income": 325541,
+        "job": "Computer Programmer",
+        "income": 82000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Write, modify, integrate and test software code; Identify and communicate technical problems, processes and solutions; Prepare reports, manuals and other documentation on the status, operation and maintenance of software; Assist in the collection and documentation of user's requirements; Assist in the development of logical and physical specifications; Research and evaluate a variety of software products; Program special effects software for film and video applications; Maintain existing computer programs by making modifications as required; Write, modify, integrate and test software code for e-commerce and other Internet applications; Program animation software to predefined specifications for interactive CDs, DVDs, video game cartridges and Internet-based applications."
         ],
-        "company": "McDonalds",
+        "company": "Technocrat Consultatns Inc",
         "firstName": "Homer",
         "lastName": "Rogers",
-        "yearsOfWork": 28,
+        "yearsOfWork": 5,
         "age": 85,
         "ethnicity": "Filipino",
         "religion": "Not Selected",
@@ -1584,15 +1009,15 @@
         "sOrientation": "bisexual"
     },
     {
-        "job": "Janitor",
-        "income": 377426,
+        "job": "Tax Accountant",
+        "income": 60000,
         "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
+            "Prepare financial information for individuals, departments or companies; Prepare financial statements and reports; Prepare income tax returns from accounting records; Plan, set up and administer accounting systems."
         ],
-        "company": "Target",
+        "company": "Elite Jobs",
         "firstName": "Homer",
         "lastName": "Lang",
-        "yearsOfWork": 14,
+        "yearsOfWork": 3,
         "age": 59,
         "ethnicity": "African American",
         "religion": "Other",
