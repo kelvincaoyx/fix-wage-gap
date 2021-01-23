@@ -59,3 +59,19 @@ header {
   transform: translate(-50%, -50%);
 }
 
+footer {
+  margin-top: 60px;
+  padding-top: 60px;
+  text-align: center;
+  padding: 3px;
+  background-color: orange;
+  margin-left:-15px;
+  margin-right:-15px;
+  color: white;
+}
+
+footer p a {
+  text-decoration: none;
+  color: white;
+
+}
