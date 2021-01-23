@@ -262,7 +262,7 @@ function applyingFilters() {
   var maxIncome = $("#maxIncome").val();
   var minIncome = $("#minIncome").val();
 
-// gives the max/min income some default numbers incase the user doesn't want to filter using this filter. Makes sure everything is shown
+  // gives the max/min income some default numbers incase the user doesn't want to filter using this filter. Makes sure everything is shown
   if (maxIncome == ''){
     maxIncome = 999999999999;
   }
@@ -357,6 +357,9 @@ $( "input" )
 $( "select" )
   .change(applyingFilters)
 
+/**
+ * Takes in info from the contribute section of the page. Work in progress - depends if we have time to work on the live database section of the website (which is part of the wish list)
+ */
 submitButtonActivate.addEventListener("click", () => {
   let job = $('#addedJob').val()
   let income = $('#addedIncome').val()
