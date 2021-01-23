@@ -1,5 +1,6 @@
 html {
   font-family: Roboto;
+  display: block
 }
 
 .logo {
@@ -73,5 +74,19 @@ footer {
 footer p a {
   text-decoration: none;
   color: white;
+
+}
+
+.button{
+  display:inline-block;
+  padding:0.2em 1.45em;
+  margin:0.2em;
+  background-color: orange;
+  text-decoration:none;
+  font-weight:400;
+  color:white;
+  border-radius: 20px;
+  text-align:center;
+
 
 }
