@@ -12,6 +12,7 @@ const submitButtonActivate = document.getElementById("submitButton");
  */
 function refreshTable(newList){
   //Clears the previous data from the div
+  console.log("clearing page of all previous cards");
   dynamicPage.innerHTML = ""
 
   //Takes in each object and creates a card for each object
@@ -264,6 +265,7 @@ function applyingFilters() {
 
   // gives the max/min income some default numbers incase the user doesn't want to filter using this filter. Makes sure everything is shown
   if (maxIncome == ''){
+    console.log("using default value for max income (999999999999)")
     maxIncome = 999999999999;
   }
   if (minIncome == ''){
