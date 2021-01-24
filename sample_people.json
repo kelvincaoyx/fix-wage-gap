@@ -545,22 +545,6 @@
         "sOrientation": "heterosexual"
     },
     {
-        "job": "Receptionist",
-        "income": 130818,
-        "experience": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium placerat mi, nec rutrum leo luctus ut. Ut molestie quam in metus lobortis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec nec ex in tortor varius pretium nec vitae risus. In semper, eros ac pharetra vestibulum, felis nunc vulputate odio, nec tincidunt diam metus nec felis. Sed vel est tincidunt, eleifend ante ut, tincidunt diam. In lobortis augue porttitor, varius neque sed, auctor lacus."
-        ],
-        "company": "Harveys",
-        "firstName": "Wyrick",
-        "lastName": "McNeal",
-        "yearsOfWork": 26,
-        "age": 75,
-        "ethnicity": "Southeast Asian",
-        "religion": "Hindu",
-        "gender": "agender",
-        "sOrientation": "asexual"
-    },
-    {
         "job": "Loggine truck driver",
         "income": 70000,
         "experience": [

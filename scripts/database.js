@@ -289,7 +289,7 @@ function applyingFilters() {
 
   var chosenOrientation = $('#sOrientation').val()
   if (chosenOrientation != 'Not Selected'){
-    var modifiedList = searchFilter(modifiedList, chosenOrientation)
+    var modifiedList = filterOrientation(modifiedList, chosenOrientation)
   }
   
   var chosenAge = $('#age').val()
