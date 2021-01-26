@@ -39,17 +39,22 @@
     <div style="font-size: xx-large; text-align: center; padding-top: 100px;">Enter your credentials.</div>
         <div class = "loginBoxes">
             <p></p>
-            <p></p>
+            <!-- <p></p> -->
+            <p id='outputBox' style='color:#ff0000;'></p>
             <input type="text" placeholder="Username" id="usernameBox" >
             <p></p>
             <input type="text" placeholder="Password" id="passwordBox">
             <p></p>
-            <!-- <button type="button" name="Enter">Login</button> -->
-            <button onclick="getCredentials()">Login</button>
 
+            <button onclick="destroy()">do not press this</button>
+            <button onclick="getCredentials()">Login</button>
+            <p></p>
+            <button onclick="create()">Don't have an account? Create one.</button>
+
+            
             <script src="scripts/login.js"></script>
     
-            <div style="text-align: center;"><a href="/createAccount.html">Don't have an account? Create one.</a></div>
+            <!-- <div style="text-align: center;"><a href="/createAccount.html">Don't have an account? Create one.</a></div> -->
         </div>
   </body>
 

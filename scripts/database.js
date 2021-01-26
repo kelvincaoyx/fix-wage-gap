@@ -286,13 +286,14 @@ function applyingFilters() {
     console.info("using default value for max income (999999999999)")
     maxIncome = 999999999999;
   }
+
   if (minIncome == ''){
     console.info("using default value for min income (0)")
     minIncome = 0;
   }
+  
   var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
 
-  
   var chosenEthnicity = $("#ethnicity").val();
   if (chosenEthnicity != 'Not Selected'){
     var modifiedList = filterEthnicity(modifiedList, chosenEthnicity)
