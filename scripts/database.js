@@ -12,46 +12,52 @@ const submitButtonActivate = document.getElementById("submitButton");
  */
 function refreshTable(newList){
   //Clears the previous data from the div
-  console.log("clearing page of all previous cards");
+  console.info("clearing page of all previous cards");
   dynamicPage.innerHTML = ""
 
   //Takes in each object and creates a card for each object
   for (var i = 0; i < newList.length; i++){
+    console.info("Created border of the dynamic card");
     borderDiv =  document.createElement("div");
     borderDiv.classList= "border";
 
     discriminatationTags = document.createElement("ul");
     discriminatationTags.classList = "discriminationTags";
     
+    console.info("Created first and last name in the dynamic card");
     fullName= document.createElement("li");
     fullName.innerHTML =  newList[i].firstName + " " + newList[i].lastName
     discriminatationTags.append(fullName);
     
-
+    console.info("Added age to the dynamic card");
     age= document.createElement("span");
     age.innerHTML =  newList[i].age + " years old"
     discriminatationTags.append(age);
 
     
     if(newList[i].ethnicity != "Not Selected"){
+      console.info("Added ethnicity to the dynamic card");
       ethnicity= document.createElement("span");
       ethnicity.innerHTML =  newList[i].ethnicity
       discriminatationTags.append(ethnicity);
     }
 
     if(newList[i].religion != "Not Selected" & newList[i].religion != "Other"){
+      console.info("Added religion to the dynamic card");
       religion= document.createElement("span");
       religion.innerHTML =  newList[i].religion
       discriminatationTags.append(religion);
     }
 
     if(newList[i].gender != "Not Selected"){
+      console.info("Added gender to the dynamic card");
       gender= document.createElement("span");
       gender.innerHTML =  newList[i].gender
       discriminatationTags.append(gender);
     };
 
     if(newList[i].sOrientation != "Not Selected"){
+      console.info("Added sexual orientation to the dynamic card");
       sOrientation = document.createElement("span");
       sOrientation.innerHTML =  newList[i].sOrientation
       discriminatationTags.append(sOrientation);
@@ -59,16 +65,19 @@ function refreshTable(newList){
    
     borderDiv.append(discriminatationTags);
 
+    console.info("Added name of job to the dynamic card");
     jobDiv = document.createElement("p");
     jobDiv.classList = "job";
     jobDiv.innerHTML = newList[i].job + ", at " + newList[i].company + " for " + newList[i].yearsOfWork + " years."
     borderDiv.append(jobDiv);
 
+    console.info("Added the job income to the dynamic card");
     incomeDiv = document.createElement("p");
     incomeDiv.classList = "income";
     incomeDiv.innerHTML = "Salary: $" + newList[i].income + "/per year"
     borderDiv.append(incomeDiv);
     
+    console.info("Added the job requirements to the dynamic card");
     infoDiv = document.createElement("p");
     infoDiv.classList = "info";
     infoDiv.innerHTML = newList[i].experience 
@@ -80,6 +89,7 @@ function refreshTable(newList){
 
   //Gives out an error message if there is nothing in the list/ nothing fit the user's search criteria
   if (newList.length == 0){
+    console.info("Couldn't find the specified job from the search criteria");
     errorMessage = document.createElement("p");
     errorMessage.innerHTML = "Sorry, no one matches your criteria. :'("
     dynamicPage.append(errorMessage);
@@ -130,6 +140,7 @@ for (var i = 0; i < 5; i++){
  * @returns {array} - Returns the filtered array with the specified range of incomes
  */
 function filterByIncome(array, max, min){
+  console.info("Filtering income")
   return array.filter(function(person) {
     if (person.income <= max & person.income >= min){
       return true
@@ -146,6 +157,7 @@ function filterByIncome(array, max, min){
  * @returns {array} - Returns the filtered array with people with ages that are at most two years away from the specified age
  */
 function filterByAge(array, age){
+  console.info("Filtering age")
   return array.filter(function(person) {
     if (age <= person.age + 2 & age >= person.age - 2){
       return true
@@ -162,6 +174,7 @@ function filterByAge(array, age){
  * @returns {array} - Returns the filtered array with people that have similar years of experience at the company
  */
 function filterByExperience(array, experience){
+  console.info("Filtering years of experience")
   return array.filter(function(person) {
     if (experience <= person.yearsOfWork + 2 & experience >= person.yearsOfWork - 2){
       return true
@@ -178,6 +191,7 @@ function filterByExperience(array, experience){
  * @returns {array} - Returns the filtered array with people that have the same ethnicity
  */
 function filterEthnicity(array, chosenEthnicity){
+  console.info("Filtering ethnicities")
   return array.filter(function(person) {
     if (person.ethnicity == chosenEthnicity){
       return true
@@ -194,6 +208,7 @@ function filterEthnicity(array, chosenEthnicity){
  * @returns {array} - Returns the filtered array with people that have the same religion
  */
 function filterReligion(array, chosenReligion){
+  console.info("Filtering religion")
   return array.filter(function(person) {
     if (person.religion == chosenReligion){
       return true
@@ -210,6 +225,7 @@ function filterReligion(array, chosenReligion){
  * @returns {array} - Returns the filtered array with people that have the same gender
  */
 function filterGender(array, chosenGender){
+  console.info("Filtering gender")
   return array.filter(function(person) {
     if (person.gender == chosenGender){
       return true
@@ -226,6 +242,7 @@ function filterGender(array, chosenGender){
  * @returns {array} - Returns the filtered array with people that have the same orientation
  */
 function filterOrientation(array, chosenOrientation){
+  console.info("Filtering sexual orientation")
   return array.filter(function(person) {
     if (person.sOrientation == chosenOrientation){
       return true
@@ -242,6 +259,7 @@ function filterOrientation(array, chosenOrientation){
  * @returns {array} - Returns the filtered array with objects that contain letters in their query
  */
 function filterItems(array, query) {
+  console.info("Filtering queries from a search bar")
   return array.filter(function(person) {
     if (person.job.toLowerCase().indexOf(query.toLowerCase()) !== -1)
       return true
@@ -265,10 +283,11 @@ function applyingFilters() {
 
   // gives the max/min income some default numbers incase the user doesn't want to filter using this filter. Makes sure everything is shown
   if (maxIncome == ''){
-    console.log("using default value for max income (999999999999)")
+    console.info("using default value for max income (999999999999)")
     maxIncome = 999999999999;
   }
   if (minIncome == ''){
+    console.info("using default value for min income (0)")
     minIncome = 0;
   }
   var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
@@ -312,34 +331,42 @@ function applyingFilters() {
   var sortingCriteria = $('#sorting').val()
 
   if (sortingCriteria == "Name (A-Z)"){
+    console.info("Sorted by name (a-z)")
     modifiedList.sort((a, b) => (a.firstName + a.lastName).localeCompare(b.firstName + b.lastName))
   }
 
   if (sortingCriteria == "Name (Z-A)"){
+    console.info("Sorted by name (z-a)")
     modifiedList.sort((a, b) => (b.firstName + b.lastName).localeCompare(a.firstName + a.lastName))
   }
 
   if (sortingCriteria == "Age (Ascending)"){
+    console.info("Sorted by age (ascending)")
     modifiedList.sort((a, b) => a.age - b.age)
   }
 
   if (sortingCriteria == "Age (Descending)"){
+    console.info("Sorted by age (descending)")
     modifiedList.sort((a, b) => b.age - a.age)
   }
 
   if (sortingCriteria == "Income (Ascending)"){
+    console.info("Sorted by income (ascending)")
     modifiedList.sort((a, b) => a.income - b.income)
   }
 
   if (sortingCriteria == "Income (Descending)"){
+    console.info("Sorted by income (descending)")
     modifiedList.sort((a, b) => b.income - a.income)
   }
 
   if (sortingCriteria == "Years of Experience (Ascending)"){
+    console.info("Sorted by years of experience (ascending)")
     modifiedList.sort((a, b) => a.yearsOfWork - b.yearsOfWork)
   }
 
   if (sortingCriteria == "Years of Experience (Descending)"){
+    console.info("Sorted by years of experience (descending)")
     modifiedList.sort((a, b) => b.yearsOfWork - a.yearsOfWork)
   }
 
