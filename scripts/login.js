@@ -6,9 +6,8 @@ const inputtedPassword = document.getElementById("passwordBox")
 const inputtedPasswordConfirm = document.getElementById("confirmPasswordBox")
 const inputtedEmail = document.getElementById("emailBox")
 const inputtedDOB = document.getElementById("birthdayBox")
-var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024);
+var db = openDatabase('mydb', '1.0', 'credentialsStorage', 2 * 1024 * 1024);
 
-// let regesteredCredentials = [{"username": 'uwu', "password": "aaa"}]
 let regesteredCredentials = []
 
 
@@ -40,40 +39,32 @@ function linearSearch(array, thingToSearch) {
 
 function getCredentials() {
 
- db.transaction(function (tx) {
-  tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');
-  tx.executeSql('INSERT INTO LOGS (id, log) VALUES ("0", "0")');
-
   db.transaction(function (tx) { 
-    tx.executeSql('SELECT * FROM LOGS', [], function (tx, results) {
+    tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
+    tx.executeSql('SELECT * FROM credentials', [], function (tx, results) {
      var len = results.rows.length, i;
 
 
      for (i = 0; i < len; i++){
-        // console.log(results.rows.item(i).id);
-        // console.log(results.rows.item(i).log);
+
         console.log(results.rows);
         regesteredCredentials = results.rows
         console.log(regesteredCredentials)
-        // var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
+
         var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
-        // console.log(userCredentials)
+        console.log(userCredentials)
         if (userCredentials != -1) {
 
-          if (regesteredCredentials[userCredentials].log == inputtedPassword.value) {
-            // document.body.innerHTML = document.body.innerHTML.replace('hello', 'hi');
+          if (regesteredCredentials[userCredentials].password == inputtedPassword.value) {
+
             document.getElementById("outputBox").innerText = 'logged in successfully (pretend this green and not red)'
-            
-            // window.alert('logged in successfully')
           }
           else {
             document.getElementById("outputBox").innerText = 'incorrect user or password'
-            // window.alert('incorrect user or password ')
           }
         }
         else {
           document.getElementById("outputBox").innerText = 'incorrect user or password'
-          // window.alert('incorrect user or password ')
         }
 
     
@@ -81,8 +72,7 @@ function getCredentials() {
  
   }, null);
 });
-});
-  
+
 
  
 
@@ -93,9 +83,8 @@ function getCredentials() {
 function makeCredentials() {
 
   db.transaction(function (tx) {
-    tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');
-    tx.executeSql('INSERT INTO LOGS (id, log) VALUES ("0", "0")');
-    tx.executeSql('SELECT * FROM LOGS', [], function (tx, results) {
+    tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
+    tx.executeSql('SELECT * FROM credentials', [], function (tx, results) {
       var len = results.rows.length, i;
 
       for (i = 0; i < len; i++){
@@ -103,21 +92,25 @@ function makeCredentials() {
         // console.log(results.rows.item(i).id);
         // console.log(results.rows.item(i).log);
         console.log(results.rows);
-        // regesteredCredentials = results.rows
+        regesteredCredentials = results.rows
         console.log(regesteredCredentials)
 
         var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
         if (userCredentials == -1 && inputtedUsername.value != '') {
           if (inputtedPassword.value == inputtedPasswordConfirm.value) {
-            // regesteredCredentials.push({"username": inputtedUsername.value, "password": inputtedPassword.value, "email" : inputtedEmail.value, "dob" : inputtedDOB.value})
             
             db.transaction(function (tx) {
-              tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');
-              // tx.executeSql('INSERT INTO LOGS (id, pass, email, dob) VALUES (?, ?, ?, ?)', [inputtedUsername.value, inputtedPassword.value, inputtedEmail.value, inputtedDOB.value]);
-              tx.executeSql('INSERT INTO LOGS (id, log) VALUES (?, ?)', [inputtedUsername.value, inputtedPassword.value]);
+              // tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, log)');
+              tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
+              tx.executeSql('INSERT INTO credentials (id, password, email, dob) VALUES (?, ?, ?, ?)', [inputtedUsername.value, inputtedPassword.value, inputtedEmail.value, inputtedDOB.value]);
+              
             });
-            window.alert('account created, please login')
-            // window.location.href = "account.html"
+          
+            
+            setTimeout(() => {  
+              window.location.href = "account.html"; 
+              console.log('Redirecting to login page...')
+            }, 3000);
             
           }
           else {
@@ -138,9 +131,11 @@ function create() {
   window.location.href = "createAccount.html"
 }
 
-function destroy() {
+function destroy() { // reset database
 db.transaction(function (tx) {
-  tx.executeSql('DROP TABLE LOGS');
+  tx.executeSql('DROP TABLE credentials');
+  tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
+  tx.executeSql('INSERT INTO credentials (id, password, email, dob) VALUES ("0", "0", "0", "0")');
 });
 }
 
