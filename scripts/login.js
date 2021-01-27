@@ -47,9 +47,9 @@ function getCredentials() {
       var len = results.rows.length, i;
 
       for (i = 0; i < len; i++){
-        // console.log(results.rows);
+        console.log(results.rows);
         regesteredCredentials = results.rows
-        // console.log(regesteredCredentials)
+        console.log(regesteredCredentials)
 
         var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
         // console.log(userCredentials)

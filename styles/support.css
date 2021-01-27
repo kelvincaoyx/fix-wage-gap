@@ -7,6 +7,7 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
+  
 }
 
 .supportImage img {
@@ -33,43 +34,48 @@
 
 .centerLine {
   display: inline-block;
-    border: 1px solid brown;
+    border: 3px solid rgb(212, 163, 72);
+    background-color: rgb(212, 163, 72);
     position: relative;
-    height: 100px;
+    height: 200px;
     left: 50%; 
+    top: 90px;
     transform: translate(-50%, 0);
 }
 
 .videoBox {
   display: inline-block;
-  width:600px;
-  height:300px;
-  border: 1px solid green;
-  background-color: aquamarine;
+  width:640px;
+  height:360px;
+  border: 1px solid blue;
+  background-color: rgb(153, 192, 238);
   position: relative; 
-  left: 350px; 
-  top: 50px;
+  left: 380px; 
+  /* top: 50px; */
   transform: translate(-50%, 0);
-  vertical-align:top
+  vertical-align: top;
+  padding: 10px;
 }
 
 .linksBox {
   display: inline-block;
-  width:600px;
+  width:640px;
   height:360px;
   border: 1px solid red;
+  background-color: rgb(219, 186, 186);
   position: relative; 
-  right: 300px; 
+  right: 330px; 
   transform: translate(50%, 0);
   vertical-align:top;
+  padding: 10px;
 }
 
 .border {
   position: relative; 
   top: 100px; 
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 100%;
-  width: 1280px;
+  width: 1400px;
   left: 50%; 
   transform: translate(-50%, 0);
 }
