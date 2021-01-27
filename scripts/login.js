@@ -72,10 +72,6 @@ function getCredentials() {
  
   }, null);
 });
-
-
- 
-
 }
 
 
@@ -106,21 +102,22 @@ function makeCredentials() {
               
             });
           
-            
+            console.log('Redirecting to login page...')
+            document.getElementById("outputBox").innerText = 'Logged in!  (pretend this green and not red)'
             setTimeout(() => {  
               window.location.href = "account.html"; 
-              console.log('Redirecting to login page...')
+             
+              
             }, 3000);
             
           }
           else {
-            // document.getElementById("outputBox").innerText = 'password aint matching my guy'
-            window.alert('password aint matching my guy')
+            document.getElementById("outputBox").innerText = 'Passwords do not match'
           }
           // console.log(regesteredCredentials)
         }
         else {
-          window.alert('invalid account information')
+          document.getElementById("outputBox").innerText = 'invalid account information'
         }
       }
     }, null);
@@ -136,6 +133,7 @@ db.transaction(function (tx) {
   tx.executeSql('DROP TABLE credentials');
   tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
   tx.executeSql('INSERT INTO credentials (id, password, email, dob) VALUES ("0", "0", "0", "0")');
+  window.alert("Account storage destroyed")
 });
 }
 

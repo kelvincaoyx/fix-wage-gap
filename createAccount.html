@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Fix the Wage Gap</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/account.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet"/>
   </head>
 
@@ -36,7 +37,7 @@
 
 
 
-    <div style="font-size: xx-large; text-align: center; padding-top: 100px;">Fill in the boxes.</div>
+    <div style="font-size: xx-large; text-align: center; padding-top: 100px;">Input your credentials</div>
     <div class = "loginBoxes">
         <p></p>
         <p></p>
@@ -51,12 +52,12 @@
         <input type="text" placeholder="DOB" id="birthdayBox">
         <p></p>
         <button onclick="makeCredentials()">Login</button>
-
-            <script src="scripts/login.js"></script>
     </div>
   </body>
 
-  <footer >
+  <script src="scripts/login.js"></script>
+
+  <footer style="position: absolute; bottom: 0; width: 100%;">
     <p>
       <a href="/privacy.html">Privacy Policy</a>
     </p>
@@ -64,8 +65,9 @@
       <a href="/support.html">Support</a>
     </p>
     <p>
-      <a href="/citations.html">Sources</a>
+      <a style="display: inline-block;" href="/citations.html">Sources</a>
     </p>
+    <button style="position: relative; display: inline-block; opacity: 0;" onclick="destroy()">hidden button</button>
   </footer>
 
 </html>
