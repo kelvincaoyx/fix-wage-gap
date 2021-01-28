@@ -57,9 +57,10 @@ function getCredentials() {
           regesteredCredentials = results.rows // copy data to array 
           console.log(regesteredCredentials)
 
-          // search for the username in the database. 
+          // look up the username in the database. 
           var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
           // console.log(userCredentials)
+
           if (userCredentials !== -1) { // check if username is regestered
 
             if (regesteredCredentials[userCredentials].password == inputtedPassword.value) { // check if password corelates to username
@@ -97,7 +98,7 @@ function getCredentials() {
 
 function makeCredentials() {
   /**
-   * Takes in information from a form and then enters it into a database so the user can login to the website later on
+   * Takes in information from a form and "creates the account" then enters it into a database so the user can login to the website later on
    * 
    */
   console.log('Create account has been summoned')
@@ -106,28 +107,31 @@ function makeCredentials() {
     tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
     tx.executeSql('SELECT * FROM credentials', [], function (tx, results) {
 
-      var len = results.rows.length, i;
+      var len = results.rows.length, i; // how many entries of data we have
       // window.alert(len)
-      // check if database has at least one entry or else it will break.  
-      if (len <= 0) { // on first run insert a blank entry into the database so it does not break. This should only be ran once. 
-        destroy(false)
-        makeCredentials() // run the function again but this time with a working database
-      }
-      else {
 
-        for (i = 0; i < len; i++){
-          // console.log(results.rows.item(i).id);
-          // console.log(results.rows.item(i).log);
+      // check if database has at least one entry. if it 
+      if (len <= 0) { // No entries. Prepare the database for action. This should only be ran once. 
+        destroy(false)
+        // run the create account again once database has reset
+        makeCredentials() 
+      }
+
+      else { // there is at least one entry
+
+        for (i = 0; i < len; i++) { 
+
           // console.log(results.rows);
           regesteredCredentials = results.rows // copy data to array 
-          console.log(regesteredCredentials)
           // console.log(regesteredCredentials)
 
+          // look up the username in the database. 
           var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
-          // check if username is inputted AND not taken, then if passwords match, if there are no issues --> redirect to login page
+
+          // is the username not blank AND not taken? 
           if (userCredentials == -1 && inputtedUsername.value !== '') { 
-            if (inputtedPassword.value == inputtedPasswordConfirm.value) { 
-              
+            if (inputtedPassword.value == inputtedPasswordConfirm.value) { // do passwords match?
+              // write to account databases, then redirect user to login page
               db.transaction(function (tx) {
                 tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
                 tx.executeSql('INSERT INTO credentials (id, password, email, dob) VALUES (?, ?, ?, ?)', [inputtedUsername.value, inputtedPassword.value, inputtedEmail.value, inputtedDOB.value]);
