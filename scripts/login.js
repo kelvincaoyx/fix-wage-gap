@@ -6,14 +6,14 @@ const inputtedEmail = document.getElementById("emailBox")
 const inputtedDOB = document.getElementById("birthdayBox")
 var db = openDatabase('mydb', '1.0', 'credentials', 2 * 1024 * 1024);
 
-let regesteredCredentials = [] // array to work with 
+let regesteredCredentials = [] // array to to store the data copied from database
 
 function linearSearch(array, thingToSearch) {
   /**
-   * Searches for a thing inside a given array with the linear search method
+   * Searches for a username inside a given array with the linear search method
    * 
    * @param {array} An array
-   * @param {float} The number to search for
+   * @param {string} The username to search for
    * 
    * @return {number} The index of the item in the array
    * @return {number} -1 if the item is not found
@@ -33,11 +33,8 @@ function linearSearch(array, thingToSearch) {
 
 function getCredentials() {
    /**
-   * Handles login requests
+   * Handles login requests. Retrieves username and password from the page and searches a database for the specified combos. Tells the user if they successfully logged in or not.
    * 
-   * @param none
-   * 
-   * @return none
    * 
    */
 
@@ -47,17 +44,19 @@ function getCredentials() {
       
       var len = results.rows.length, i;
       // window.alert(len)
-      if (len <= 0) { // on first run insert a blank entry into the database so it does not break
+      // check if database has at least one entry or else it will break.  
+      if (len <= 0) { // on first run insert a blank entry into the database so the program. This should only be ran once. 
         destroy(false)
-        getCredentials()
+        getCredentials() // run the function again but this time with a working database
       }
 
-      else {
+      else { 
         for (i = 0; i < len; i++){
           console.log(results.rows);
-          regesteredCredentials = results.rows
+          regesteredCredentials = results.rows // copy data to array 
           console.log(regesteredCredentials)
 
+          // search for the username in the database. 
           var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
           // console.log(userCredentials)
           if (userCredentials !== -1) { // check if username is regestered
@@ -67,19 +66,23 @@ function getCredentials() {
               document.getElementById("outputBox").innerText = 'Logged in successfully!'
               //Kelvin's part I added this to help customise the user's login stuff like said in the WBS. There wasn't much i could do, since the account feature doesn't really do anything at this moment
               alert("welcome " + inputtedUsername.value + " to fix the wage gap!!!")
-              window.location.href = "/database.html";
+              setTimeout(() => { // give people time to see before it redirects               
+                window.location.href = "/database.html";
+              }, 1000);
               break
             }
 
-            else {
+            else { // password does not corelate with username
               document.getElementById("outputBox").style.color = "#ff0000";
               document.getElementById("outputBox").innerText = 'Incorrect user or password'
+              console.log('Password does not corelate with username')
             }
           }
 
-          else {
+          else { // username does not exist
             document.getElementById("outputBox").style.color = "#ff0000";
             document.getElementById("outputBox").innerText = 'Incorrect user or password'
+            console.log('Username doesnt exist')
           }
         }
       }
@@ -92,11 +95,7 @@ function getCredentials() {
 
 function makeCredentials() {
   /**
-   * Regesters user into account database
-   * 
-   * @param none
-   * 
-   * @return none
+   * Takes in information from a form and then enters it into a database so the user can login to the website later on
    * 
    */
 

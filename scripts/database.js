@@ -6,7 +6,8 @@ const dynamicPage = document.getElementById("dynamicPage");
 const submitButtonActivate = document.getElementById("submitButton");
 
 /**
- * Takes a one-dimensional array and dynamically shows them on the database tab
+ * Takes a one-dimensional array and dynamically shows them on the database tab.
+ * Basically refreshes the page with information from a list
  * 
  * @param {array} newList - An array of objects that will be shown on the database scrren
  */
@@ -17,6 +18,7 @@ function refreshTable(newList){
 
   //Takes in each object and creates a card for each object
   for (var i = 0; i < newList.length; i++){
+    //adds the border of the card
     console.info("Created border of the dynamic card");
     borderDiv =  document.createElement("div");
     borderDiv.classList= "border";
@@ -24,17 +26,19 @@ function refreshTable(newList){
     discriminatationTags = document.createElement("ul");
     discriminatationTags.classList = "discriminationTags";
     
+    //adds first and last names to the card
     console.info("Created first and last name in the dynamic card");
     fullName= document.createElement("li");
     fullName.innerHTML =  newList[i].firstName + " " + newList[i].lastName
     discriminatationTags.append(fullName);
     
+    //adds the age of the user to the card
     console.info("Added age to the dynamic card");
     age= document.createElement("span");
     age.innerHTML =  newList[i].age + " years old"
     discriminatationTags.append(age);
 
-    
+    //adds the ethnicity of the user if specified
     if(newList[i].ethnicity != "Not Selected"){
       console.info("Added ethnicity to the dynamic card");
       ethnicity= document.createElement("span");
@@ -42,6 +46,7 @@ function refreshTable(newList){
       discriminatationTags.append(ethnicity);
     }
 
+    //adds the religion of the user if specified
     if(newList[i].religion != "Not Selected" & newList[i].religion != "Other"){
       console.info("Added religion to the dynamic card");
       religion= document.createElement("span");
@@ -49,6 +54,7 @@ function refreshTable(newList){
       discriminatationTags.append(religion);
     }
 
+    //adds the gender of the user if specified
     if(newList[i].gender != "Not Selected"){
       console.info("Added gender to the dynamic card");
       gender= document.createElement("span");
@@ -56,6 +62,7 @@ function refreshTable(newList){
       discriminatationTags.append(gender);
     };
 
+    //adds the sexual orientation of the user if specified
     if(newList[i].sOrientation != "Not Selected"){
       console.info("Added sexual orientation to the dynamic card");
       sOrientation = document.createElement("span");
@@ -65,18 +72,21 @@ function refreshTable(newList){
    
     borderDiv.append(discriminatationTags);
 
+    //adds the job title of the user
     console.info("Added name of job to the dynamic card");
     jobDiv = document.createElement("p");
     jobDiv.classList = "job";
     jobDiv.innerHTML = newList[i].job + ", at " + newList[i].company + " for " + newList[i].yearsOfWork + " years."
     borderDiv.append(jobDiv);
 
+    //adds the job income of the user
     console.info("Added the job income to the dynamic card");
     incomeDiv = document.createElement("p");
     incomeDiv.classList = "income";
     incomeDiv.innerHTML = "Salary: $" + newList[i].income + "/per year"
     borderDiv.append(incomeDiv);
     
+    //adds the job description of the user
     console.info("Added the job requirements to the dynamic card");
     infoDiv = document.createElement("p");
     infoDiv.classList = "info";
@@ -294,36 +304,43 @@ function applyingFilters() {
   
   var modifiedList = filterByIncome(listOfPeople, maxIncome, minIncome);
 
+  //filters ethnicity in the database
   var chosenEthnicity = $("#ethnicity").val();
   if (chosenEthnicity != 'Not Selected'){
     var modifiedList = filterEthnicity(modifiedList, chosenEthnicity)
   }
 
+  //filters religion in the database
   var chosenReligion = $('#religion').val()
   if (chosenReligion != 'Not Selected'){
     var modifiedList = filterReligion(modifiedList, chosenReligion)
   }
 
+  //filters gender in the database
   var chosenGender = $('#gender').val()
   if (chosenGender != 'Not Selected'){
     var modifiedList = filterGender(modifiedList, chosenGender)
   }
 
+  //filters sexual orientation in the database
   var chosenOrientation = $('#sOrientation').val()
   if (chosenOrientation != 'Not Selected'){
     var modifiedList = filterOrientation(modifiedList, chosenOrientation)
   }
   
+  //filters age in the database
   var chosenAge = $('#age').val()
   if (chosenAge != ''){
     var modifiedList = filterByAge(modifiedList, chosenAge)
   }
   
+  //filters years of experience in the database
   var chosenExperience = $('#yearsOfExperience').val()
   if (chosenExperience != ''){
     var modifiedList = filterByExperience(modifiedList, chosenExperience)
   }
 
+  //filters out specified search terms in the database
   var searchTerm = $('#searchBox').val()
   if (searchTerm != ''){
     var modifiedList = filterItems(modifiedList, searchTerm)
@@ -331,41 +348,49 @@ function applyingFilters() {
 
   var sortingCriteria = $('#sorting').val()
 
+  //allows user to sort database from a-z
   if (sortingCriteria == "Name (A-Z)"){
     console.info("Sorted by name (a-z)")
     modifiedList.sort((a, b) => (a.firstName + a.lastName).localeCompare(b.firstName + b.lastName))
   }
 
+  //allows user to sort database from z-a
   if (sortingCriteria == "Name (Z-A)"){
     console.info("Sorted by name (z-a)")
     modifiedList.sort((a, b) => (b.firstName + b.lastName).localeCompare(a.firstName + a.lastName))
   }
 
+  //allows user to sort database from ascending age
   if (sortingCriteria == "Age (Ascending)"){
     console.info("Sorted by age (ascending)")
     modifiedList.sort((a, b) => a.age - b.age)
   }
 
+  //allows user to sort database from descending age
   if (sortingCriteria == "Age (Descending)"){
     console.info("Sorted by age (descending)")
     modifiedList.sort((a, b) => b.age - a.age)
   }
 
+  //allows user to sort database from ascending income
   if (sortingCriteria == "Income (Ascending)"){
     console.info("Sorted by income (ascending)")
     modifiedList.sort((a, b) => a.income - b.income)
   }
 
+  //allows user to sort database from descending income
   if (sortingCriteria == "Income (Descending)"){
     console.info("Sorted by income (descending)")
     modifiedList.sort((a, b) => b.income - a.income)
   }
 
+  //allows user to sort database from ascending years of experience
   if (sortingCriteria == "Years of Experience (Ascending)"){
     console.info("Sorted by years of experience (ascending)")
     modifiedList.sort((a, b) => a.yearsOfWork - b.yearsOfWork)
   }
 
+  //allows user to sort database from descending years of experience
   if (sortingCriteria == "Years of Experience (Descending)"){
     console.info("Sorted by years of experience (descending)")
     modifiedList.sort((a, b) => b.yearsOfWork - a.yearsOfWork)
