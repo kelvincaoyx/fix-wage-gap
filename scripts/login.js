@@ -38,6 +38,7 @@ function getCredentials() {
    * 
    */
 
+  console.log('Login has been summoned')
   db.transaction(function (tx) { 
     tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
     tx.executeSql('SELECT * FROM credentials', [], function (tx, results) {
@@ -64,6 +65,7 @@ function getCredentials() {
             if (regesteredCredentials[userCredentials].password == inputtedPassword.value) { // check if password corelates to username
               document.getElementById("outputBox").style.color = "#00ff00";
               document.getElementById("outputBox").innerText = 'Logged in successfully!'
+              console.log('Login successfully')
               //Kelvin's part I added this to help customise the user's login stuff like said in the WBS. There wasn't much i could do, since the account feature doesn't really do anything at this moment
               alert("welcome " + inputtedUsername.value + " to fix the wage gap!!!")
               setTimeout(() => { // give people time to see before it redirects               
@@ -98,7 +100,7 @@ function makeCredentials() {
    * Takes in information from a form and then enters it into a database so the user can login to the website later on
    * 
    */
-
+  console.log('Create account has been summoned')
   db.transaction(function (tx) {
     console.log("c")
     tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
@@ -106,9 +108,10 @@ function makeCredentials() {
 
       var len = results.rows.length, i;
       // window.alert(len)
-      if (len <= 0) { // on first run insert a blank entry into the database so it does not break
+      // check if database has at least one entry or else it will break.  
+      if (len <= 0) { // on first run insert a blank entry into the database so it does not break. This should only be ran once. 
         destroy(false)
-        makeCredentials()
+        makeCredentials() // run the function again but this time with a working database
       }
       else {
 
@@ -116,11 +119,12 @@ function makeCredentials() {
           // console.log(results.rows.item(i).id);
           // console.log(results.rows.item(i).log);
           // console.log(results.rows);
-          regesteredCredentials = results.rows
+          regesteredCredentials = results.rows // copy data to array 
+          console.log(regesteredCredentials)
           // console.log(regesteredCredentials)
 
           var userCredentials = linearSearch(regesteredCredentials, inputtedUsername.value)
-          // check if username is inputted, then if passwords match
+          // check if username is inputted AND not taken, then if passwords match, if there are no issues --> redirect to login page
           if (userCredentials == -1 && inputtedUsername.value !== '') { 
             if (inputtedPassword.value == inputtedPasswordConfirm.value) { 
               
@@ -131,20 +135,23 @@ function makeCredentials() {
               // console.log('Redirecting to login page...')
               document.getElementById("outputBox").style.color = "#00ff00";
               document.getElementById("outputBox").innerText = 'Account created! Redirecting to login page...'
+              console.log('Successful account creation')
               setTimeout(() => {                
                 window.location.href = "account.html"; 
               }, 3000);
             }
 
-            else {
+            else { // password and conformation password do not match, complain about it
               document.getElementById("outputBox").style.color = "#ff0000";
               document.getElementById("outputBox").innerText = 'Passwords do not match'
+              console.log('Passwords do not match')
             }
           }
 
-          else {
+          else { // user did not input a username or inputted a taken username, complain about it
             document.getElementById("outputBox").style.color = "#ff0000";
             document.getElementById("outputBox").innerText = 'Invalid account information'
+            console.log("Cannot create account with invalid account information")
           }
         }
       }
@@ -179,7 +186,7 @@ function destroy(windowAlert = true) {
     tx.executeSql('CREATE TABLE IF NOT EXISTS credentials (id unique, password, email, dob)');
     tx.executeSql('INSERT INTO credentials (id, password, email, dob) VALUES ("0", "0", "0", "0")'); // input an entry after reset or else something will break
     if (windowAlert == true) {
-      window.alert("Account storage destroyed")
+      window.alert("Account storage destroyed. You were told to not click this. Now look what you've done.") // send a popup as this is the best way to get someone's attention as they were instructed in the tutorial video specifically to not click this
     }
   });
 }
