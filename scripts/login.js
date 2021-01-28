@@ -65,6 +65,10 @@ function getCredentials() {
             if (regesteredCredentials[userCredentials].password == inputtedPassword.value) { // check if password corelates to username
               document.getElementById("outputBox").style.color = "#00ff00";
               document.getElementById("outputBox").innerText = 'Logged in successfully!'
+              //Kelvin's part I added this to help customise the user's login stuff like said in the WBS. There wasn't much i could do, since the account feature doesn't really do anything at this moment
+              alert("welcome " + inputtedUsername.value + " to fix the wage gap!!!")
+              window.location.href = "/database.html";
+              break
             }
 
             else {
