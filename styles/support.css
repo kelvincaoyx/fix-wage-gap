@@ -38,7 +38,7 @@
     background-color: rgb(212, 163, 72);
     position: relative;
     height: 200px;
-    left: 50%; 
+    left: 30px; 
     top: 90px;
     transform: translate(-50%, 0);
 }
@@ -68,6 +68,8 @@
   transform: translate(50%, 0);
   vertical-align:top;
   padding: 10px;
+  overflow-x:initial;
+  white-space: normal;
 }
 
 .border {
@@ -75,8 +77,10 @@
   top: 100px; 
   /* border: 1px solid blue; */
   height: 100%;
-  width: 1400px;
+  /* width: 1400px; */
   left: 50%; 
+  overflow-x: auto;
+  white-space: nowrap;
   transform: translate(-50%, 0);
 }
 

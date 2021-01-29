@@ -9,7 +9,7 @@ const submitButtonActivate = document.getElementById("submitButton");
  * Takes a one-dimensional array and dynamically shows them on the database tab.
  * Basically refreshes the page with information from a list
  * 
- * @param {array} newList - An array of objects that will be shown on the database scrren
+ * @param {array} newList - An array of objects that will be shown on the database screen
  */
 function refreshTable(newList){
   //Clears the previous data from the div
